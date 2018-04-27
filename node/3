@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8" />
-<link rel="shortcut icon" href="https://jhkennedy.github.io//sites/default/files/signature_favico.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortcut icon" href="https://jhkennedy.github.io/sites/default/files/signature_favico.ico" type="image/vnd.microsoft.icon" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <link rel="canonical" href="/ofinterest" />
 <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
 <link rel="shortlink" href="/node/3" />
 <title>Useful things of interest.  | jhkennedy.org</title>
 <style type="text/css" media="all">
-@import url("https://jhkennedy.github.io//modules/system/system.base.css?nsvvb0");
-@import url("https://jhkennedy.github.io//modules/system/system.menus.css?nsvvb0");
-@import url("https://jhkennedy.github.io//modules/system/system.messages.css?nsvvb0");
-@import url("https://jhkennedy.github.io//modules/system/system.theme.css?nsvvb0");
+@import url("https://jhkennedy.github.io/modules/system/system.base.css?nsvvb0");
+@import url("https://jhkennedy.github.io/modules/system/system.menus.css?nsvvb0");
+@import url("https://jhkennedy.github.io/modules/system/system.messages.css?nsvvb0");
+@import url("https://jhkennedy.github.io/modules/system/system.theme.css?nsvvb0");
 </style>
 <style type="text/css" media="all">
-@import url("https://jhkennedy.github.io//modules/comment/comment.css?nsvvb0");
-@import url("https://jhkennedy.github.io//modules/field/theme/field.css?nsvvb0");
-@import url("https://jhkennedy.github.io//modules/node/node.css?nsvvb0");
-@import url("https://jhkennedy.github.io//modules/search/search.css?nsvvb0");
-@import url("https://jhkennedy.github.io//modules/user/user.css?nsvvb0");
+@import url("https://jhkennedy.github.io/modules/comment/comment.css?nsvvb0");
+@import url("https://jhkennedy.github.io/modules/field/theme/field.css?nsvvb0");
+@import url("https://jhkennedy.github.io/modules/node/node.css?nsvvb0");
+@import url("https://jhkennedy.github.io/modules/search/search.css?nsvvb0");
+@import url("https://jhkennedy.github.io/modules/user/user.css?nsvvb0");
 </style>
 <style type="text/css" media="all">
-@import url("https://jhkennedy.github.io//sites/all/themes/responsive/css/responsive-style.css?nsvvb0");
-@import url("https://jhkennedy.github.io//sites/all/themes/responsive/css/layout.css?nsvvb0");
-@import url("https://jhkennedy.github.io//sites/all/themes/responsive/flexslider.css?nsvvb0");
-@import url("https://jhkennedy.github.io//sites/all/themes/responsive/style.css?nsvvb0");
-@import url("https://jhkennedy.github.io//sites/all/themes/responsive/color/colors.css?nsvvb0");
-@import url("https://jhkennedy.github.io//sites/all/themes/responsive/css/jhkennedy_custom.css?nsvvb0");
+@import url("https://jhkennedy.github.io/sites/all/themes/responsive/css/responsive-style.css?nsvvb0");
+@import url("https://jhkennedy.github.io/sites/all/themes/responsive/css/layout.css?nsvvb0");
+@import url("https://jhkennedy.github.io/sites/all/themes/responsive/flexslider.css?nsvvb0");
+@import url("https://jhkennedy.github.io/sites/all/themes/responsive/style.css?nsvvb0");
+@import url("https://jhkennedy.github.io/sites/all/themes/responsive/color/colors.css?nsvvb0");
+@import url("https://jhkennedy.github.io/sites/all/themes/responsive/css/jhkennedy_custom.css?nsvvb0");
 </style>
-<script type="text/javascript" src="https://jhkennedy.github.io//misc/jquery.js?v=1.4.4"></script>
-<script type="text/javascript" src="https://jhkennedy.github.io//misc/jquery.once.js?v=1.2"></script>
-<script type="text/javascript" src="https://jhkennedy.github.io//misc/drupal.js?nsvvb0"></script>
-<script type="text/javascript" src="https://jhkennedy.github.io//sites/all/modules/admin_menu/admin_devel/admin_devel.js?nsvvb0"></script>
-<script type="text/javascript" src="https://jhkennedy.github.io//sites/all/themes/responsive/js/jquery.mobilemenu.js?nsvvb0"></script>
-<script type="text/javascript" src="https://jhkennedy.github.io//sites/all/themes/responsive/js/superfish.js?nsvvb0"></script>
-<script type="text/javascript" src="https://jhkennedy.github.io//sites/all/themes/responsive/js/custom.js?nsvvb0"></script>
+<script type="text/javascript" src="https://jhkennedy.github.io/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://jhkennedy.github.io/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://jhkennedy.github.io/misc/drupal.js?nsvvb0"></script>
+<script type="text/javascript" src="https://jhkennedy.github.io/sites/all/modules/admin_menu/admin_devel/admin_devel.js?nsvvb0"></script>
+<script type="text/javascript" src="https://jhkennedy.github.io/sites/all/themes/responsive/js/jquery.mobilemenu.js?nsvvb0"></script>
+<script type="text/javascript" src="https://jhkennedy.github.io/sites/all/themes/responsive/js/superfish.js?nsvvb0"></script>
+<script type="text/javascript" src="https://jhkennedy.github.io/sites/all/themes/responsive/js/custom.js?nsvvb0"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"responsive","theme_token":"Lis-jRaU1QnBb_RwcxdK-mD6-3enCGAAHN0t36bOv4o","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/themes\/responsive\/js\/jquery.mobilemenu.js":1,"sites\/all\/themes\/responsive\/js\/superfish.js":1,"sites\/all\/themes\/responsive\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/themes\/responsive\/css\/responsive-style.css":1,"sites\/all\/themes\/responsive\/css\/layout.css":1,"sites\/all\/themes\/responsive\/flexslider.css":1,"sites\/all\/themes\/responsive\/style.css":1,"sites\/all\/themes\/responsive\/color\/colors.css":1,"sites\/all\/themes\/responsive\/css\/jhkennedy_custom.css":1}}});
@@ -49,7 +49,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <header id="head" role="banner">
     <hgroup class="five columns alpha">
        <div id="logo">
-        <a href="/" title="Home"><img src="https://jhkennedy.github.io//sites/default/files/jhkennedy_logo_0.png" alt="Home"/></a>               </div>
+        <a href="/" title="Home"><img src="https://jhkennedy.github.io/sites/default/files/jhkennedy_logo_0.png" alt="Home"/></a>               </div>
     </hgroup>
     
     <div class="eleven columns omega" id="headright">
