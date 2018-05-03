@@ -1,0 +1,30 @@
+{
+    "Type": "Page",
+    "Title": "Summary",
+    "Description": "",
+    "Data": {
+        "Elements": [
+            {
+                "Type": "ValSummary",
+                "Title": "Validation",
+                "TableTitle": "Kolmogorov\u2013Smirnov",
+                "Headers": [
+                    "Variables Analyzed",
+                    "Rejecting",
+                    "Critical Value",
+                    "Ensembles"
+                ],
+                "Data": {
+                    "default_v_fast": {
+                        "": {
+                            "Variables Analyzed": 158,
+                            "Rejecting": 26,
+                            "Critical Value": 13.0,
+                            "Ensembles": "distinct"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
