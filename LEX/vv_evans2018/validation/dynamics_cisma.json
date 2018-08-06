@@ -1,0 +1,61 @@
+{
+    "Data": {
+        "Elements": [
+            {
+                "Data": [
+                    {
+                        "Plot File": "dynamics_cisma/CISMA_velnorm.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "The norm of the surface velocity (m s^-1) from CISM initialization dataset (left; Joughin et al., 2010a,b), CISM-Albany after spin-up (middle), and their difference (CISM-A - init) over Greenland.", 
+                        "Title": "Surface velocity norm over Greenland"
+                    }, 
+                    {
+                        "Plot File": "dynamics_cisma/CISMA_js.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "The norm of the surface velocity (m s^-1) from CISM initialization dataset (left; Joughin et al., 2010a,b), CISM-Albany after spin-up (middle), and their difference (CISM-A - init) over Jakobshavn glacier (West Greenland; Zwally et al. (2012) basins 7).", 
+                        "Title": "Surface velocity norm over Jakobshavn glacier"
+                    }, 
+                    {
+                        "Plot File": "dynamics_cisma/CISMA_pm.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "The norm of the surface velocity (m s^-1) from CISM initialization dataset (left; Joughin et al., 2010a,b), CISM-Albany after spin-up (middle), and their difference (CISM-A - init) over Petermann glacier (North-West Greenland; Zwally et al. (2012) basins 1).", 
+                        "Title": "Surface velocity norm over Petermann glacier"
+                    }, 
+                    {
+                        "Plot File": "dynamics_cisma/CISMA_zach.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "The norm of the surface velocity (m s^-1) from CISM initialization dataset (left; Joughin et al., 2010a,b), CISM-Albany after spin-up (middle), and their difference (CISM-A - init) over North-East Greenland (Zwally et al. (2012) basins 1 and 2).", 
+                        "Title": "Surface velocity norm over North-East Greenland"
+                    }, 
+                    {
+                        "Plot File": "dynamics_cisma/CISMA_RACMO23.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Surface mass balance (kg m^-2 a^-1) over Greenland for CISM-Albany after spin-up forced with RACMO 2.0 (left), RACMO 2.3 (right), and their difference (CISM-Albany - RACMO 2.3) with CISM-Albany interpolated to the coarser RACMO 2.3 grid.", 
+                        "Title": "Surface mass balance over Greenland"
+                    }, 
+                    {
+                        "Plot File": "dynamics_cisma/scatter_CISMA_RACMO23.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Comparison of the surface mass balance (kg m^-2 a^-1) at grid point over Greenland for RACMO 2.3 and CISM-Albany (after spin-up forced by RACMO 2.0) interpolated to the coarser RACMO grid.", 
+                        "Title": "Surface mass balance comparison"
+                    }
+                ], 
+                "Type": "Gallery", 
+                "Title": "Figures"
+            }, 
+            {
+                "Data": "<div class=\"references\"><h3>References</h3> If you use this LIVVkit extension for any part of your modeling or analyses, please cite:<div class=\"bibliography\"><dl><dt>1</dt> <dd>I.&nbsp;Joughin, B.&nbsp;Smith, I.&nbsp;Howat, and T.&nbsp;Scambos. <span class=\"bibtex-protected\">MEaSUREs Greenland Ice Velocity Map from InSAR Data</span>. Technical Report, National Snow and Ice Data Center, Boulder, Colorado USA, April 2010. URL: <a href=\"http://nsidc.org/data/docs/measures/nsidc0478_joughin/\">http://nsidc.org/data/docs/measures/nsidc0478_joughin/</a>, <a href=\"https://doi.org/10.5067/MEASURES/CRYOSPHERE/nsidc-0478.001\">doi:10.5067/MEASURES/CRYOSPHERE/nsidc-0478.001</a>.</dd> <dt>2</dt> <dd>I.&nbsp;Joughin, B.&nbsp;Smith, I.&nbsp;M. Howat, T.&nbsp;Scambos, and T.&nbsp;Moon. Greenland flow variability from ice-sheet-wide velocity mapping. <em>Journal of Glaciology</em>, 56:415\u2013430, 2010. <a href=\"https://doi.org/10.3189/002214310792447734\">doi:10.3189/002214310792447734</a>.</dd> <dt>3</dt> <dd>Joseph&nbsp;H. Kennedy, Andrew&nbsp;R. Bennett, Katherine&nbsp;J. Evans, Stephen Price, Matthew Hoffman, William&nbsp;H. Lipscomb, Jeremy Fyke, Lauren Vargo, Adrianna Boghozian, Matthew Norman, and Patrick&nbsp;H. Worley. Livvkit: an extensible, python-based, land ice verification and validation toolkit for ice sheet models. <em>Journal of Advances in Modeling Earth Systems</em>, 9(2):854\u2013869, 2017. <a href=\"https://doi.org/10.1002/2017MS000916\">doi:10.1002/2017MS000916</a>.</dd> <dt>4</dt> <dd>B.&nbsp;N<span class=\"bibtex-protected\">\u00f6</span>el, W.&nbsp;J. van&nbsp;de Berg, E.&nbsp;van Meijgaard, P.&nbsp;Kuipers Munneke, R.&nbsp;S.&nbsp;W. van&nbsp;de Wal, and M.&nbsp;R. van&nbsp;den Broeke. Evaluation of the updated regional climate model racmo2.3: summer snowfall impact on the greenland ice sheet. <em>The Cryosphere</em>, 9:1831\u20131844, 2015. <a href=\"https://doi.org/10.5194/tc-9-1831-2015\">doi:10.5194/tc-9-1831-2015</a>.</dd> <dt>5</dt> <dd>J.&nbsp;H. van Angelen, M.R. Van&nbsp;Den Broeke, B.&nbsp;Wouters, and J.&nbsp;T.&nbsp;M. Lenaerts. Contemporary (1960\u20132012) evolution of the climate and surface mass balance of the greenland ice sheet. <em>Surv. Geophys.</em>, 35:1155\u20131174, 2013. <a href=\"https://doi.org/10.1007/s10712-013-9261-z\">doi:10.1007/s10712-013-9261-z</a>.</dd> <dt>6</dt> <dd>H.&nbsp;Jay Zwally, Mario&nbsp;B. Giovinetto, Matthew&nbsp;A. Beckley, and Jack&nbsp;L. Saba. Antarctic and greenland drainage systems. <a href=\"http://icesat4.gsfc.nasa.gov/cryo_data/ant_grn_drainage_systems.php\">http://icesat4.gsfc.nasa.gov/cryo_data/ant_grn_drainage_systems.php</a>, 2012. GSFC Cryospheric Sciences Laboratory.</dd> </dl></div></div>", 
+                "Type": "HTML"
+            }
+        ]
+    }, 
+    "Type": "Page", 
+    "Description": "An analysis of CISM-Albany's Greenland dynamics.", 
+    "Title": "dynamics_cisma"
+}

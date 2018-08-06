@@ -1,0 +1,117 @@
+{
+    "Data": {
+        "Elements": [
+            {
+                "Data": [
+                    {
+                        "Plot File": "smb_icecores/plot_meta.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Map describing the datasets used in model surface mass balance validation, including core/firn locations, altimetry transects, and drainage basin delineations in the Greenland Ice Sheet. Drainage basins were denoted by Zwally et al. (2012) are numbered in orange, and their colors correspond to those used in other histograms and scatterplots that compare modeled and observed SMB. Altimetry data (white lines) were obtained from the IceBridge project (Lewis et al., 2017) and SMB values along transects represent the annual average from the temporal domain of each transect (the oldest resolvable internal reflecting horizon varies for each airborne radar location, but can reach as far back as the early 1700s). Core/firn estimates are colored based on their source; dark blue circles are locations compiled by Cogley et al. (2004) and updated by Bales et al. (2009) PARCA cores, while yellow triangles are estimates supplied by PROMICE (Machguth et al., 2016). Core data points are sized by the length of their temporal record, with larger points indicating annual estimates were taken from a greater number of yearly SMB values.", 
+                        "Title": "Data locations"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/core_spatial.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Filled contour of modeled annual surface mass balance of the Greenland ice sheet, with firn and core field estimates overlaid as filled circles. Data were compiled from Cogley et al. (2004), Bales et al., 2009, and the PROMICE database (Machguth et al., 2016), from both ablation and accumulation zones.", 
+                        "Title": "Modeled SMB with field overlay"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/IB_spatial.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Spatial plot of annual surface mass balance along IceBridge transects in the Greenland accumulation zone. SMB is given in kg m^-2 a^-1, and was estimated from altimetry data.", 
+                        "Title": "IceBridge transects"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/IB_spatial_difference.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Spatial plot of differences between modeled and observed annual surface mass balance along IceBridge altimetry transects in the Greenland ice sheet. Differences are given in m^-2 a^-1 Modeled SMB values are compared to accumulation zone data compiled from Lewis et al. (2017). Blue (red) indicates locations at which the model overestimates (underestimates) surface mass balance when compared to annual IceBridge estimates.", 
+                        "Title": "IceBridge transect differences"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/core_AccCompare.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Modeled annual surface mass balance versus estimates derived from firn and core field data compiled from Cogley et al. (2004) and Bales et al. (2009). Ice sheet and glacier SMB estimates from these sources are all taken in the accumulation zone (SMB>0), and comparisons are given in kg m-2 yr-1. Colors correspond to the eight major drainage basins denoted by Zwally et al., 2012 A 1:1 line is drawn in blue.", 
+                        "Title": "Modeled SMB vs. field accumulation"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/core_AblCompare.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Modeled annual surface mass balance versus estimates derived from firn and core field data compiled from PROMICE (Machguth et al., 2016). Ice sheet and glacier SMB estimates from PROMICE are all taken in the ablation zone (SMB<0), and comparisons are given in kg m-2 yr-1. Colors correspond to the eight major drainage basins denoted by Zwally et al., 2012 A 1:1 line is drawn in blue.", 
+                        "Title": "Modeled SMB vs field ablation"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/IB_AccCompare.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Modeled annual surface mass balance versus estimates derived from IceBridge altimetry data detailed in Lewis et al. (2017). SMB estimates from these were taken in the accumulation zone (SMB>0), and comparisons are given in kg m-2 yr-1. Colors correspond to the eight major drainage basins denoted by Zwally et al., 2012 A 1:1 line is drawn in blue. Note that because this plot compares nearest neighbor values without any spatial interpolation, one coarse model cell may be compared to multiple (if not many) observed SMB estimates, as the isochrones dataset is of very high spatial resolution.", 
+                        "Title": "Modeled SMB vs. IceBridge"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/core_diffhist_all.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Histogram of differences between modeled and observed annual surface mass balance in kg m-2 yr-1, at all core and firn locations in the Greenland Ice Sheet. High frequencies near zero imply greater model agreement with core data. Data are compiled from Cogley et al. (2004), Bales et al. (2009), and the PROMICE database (Machguth et al., 2016), from both ablation and accumulation zones. The light blue line highlights 0 difference between model and observed; values above (below) this line indicate that the model overestimates (underestimates) SMB in comparison to core observations.", 
+                        "Title": "Core difference histogram"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/core_diffhist_basins.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Histogram of differences between modeled and observed annual surface mass balance in kg m-2 yr-1, at core and firn locations in the Greenland Ice Sheet. Colors correspond to the eight major drainage basins denoted by Zwally et al., 2012 High frequencies near zero imply greater model agreement with core data. Data were compiled from Cogley et al. (2004), Bales et al., 2009, and the PROMICE database (Machguth et al., 2016), from both ablation and accumulation zones. The light blue line highlights 0 difference between model and observed; values above (below) this line indicate that the model overestimates (underestimates) SMB in comparison to core observations. Axes have been normalized for the eight drainage histograms in order to show differences between number of available comparison points per basin.", 
+                        "Title": "Core difference histogram by basin"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/IB_diffhist_basins.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Histograms of differences between modeled and observed annual surface mass balance, at altimetry locations on the Greenland Ice Sheet. Colors correspond to the eight major drainage basins denoted by Zwally et al., 2012. High frequencies near zero imply greater model agreement with altimetry data. Observation data were compiled from the IceBridge dataset (Lewis et al., 2017) in the accumulation zones. The light blue line highlights zero difference between model and observed; values above (below) this line indicate that the model overestimates (underestimates) SMB in comparison to altimetry observations. Axes have been normalized for the eight drainage histograms in order to show differences between the number of available comparison points per basin. Note that because this plot compares nearest neighbor values without any spatial interpolation, one coarse model cell may be compared to multiple (if not many) observed SMB estimates, as the isochrones dataset has very high spatial resolution.", 
+                        "Title": "IceBridge difference histogram by basin"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/IB_diffhist_all.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Histogram of differences between modeled and observed annual surface mass balance, at altimetry locations in the Greenland Ice Sheet. High frequencies near zero imply greater model agreement with altimetry data. Observation data were compiled from the IceBridge dataset (Lewis et al., 2017) in the accumulation zones. The light blue line highlights zero difference between model and observed; values above (below) this line indicate that the model overestimates (underestimates) SMB in comparison to altimetry observations. Note that because this plot compares nearest neighbor values without any spatial interpolation, one coarse model cell may be compared to multiple (if not many) observed SMB estimates, as the isochrones dataset has very high spatial resolution.", 
+                        "Title": "IceBridge difference histogram"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/core_smbelev_obs.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Field estimates of annual surface mass balance in kg m-2 yr-1 as a function of observed elevation in meters. Data were compiled from Cogley et al. (2004), Bales et al. (2009), and the PROMICE database (Machguth et al., 2016), from both ablation and accumulation zones. Colors correspond to the eight major drainage basins denoted by Zwally et al., 2012 Size of the point represents the number of years in the field record, with larger points containing comparatively more temporal information than smaller points. Each point represents an annual surface mass balance estimate averaged across at least one year of data.", 
+                        "Title": "Obs. SMB vs. obs. elevation"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/core_smbelev_mod.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Model elevation in meters versus modeled annual surface mass balance in kg m-2 yr-1. Each point represents a cell location at which a core or firn estimate is available. Colors correspond to the eight major drainage basins denoted by Zwally et al., 2012.", 
+                        "Title": "Modeled SMB vs. model elevation"
+                    }, 
+                    {
+                        "Plot File": "smb_icecores/core_transects.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Annual surface mass balance in kg m-2 yr-1 as a function of observed elevation in meters at four different transect locations in the ablation zone. Red dots are modeled SMB and elevation, while blue dots are observed SMB and elevation from firn and core field estimates. Observation data were compiled from the PROMICE database (Machguth et al., 2016).", 
+                        "Title": "Ablation transect SMB vs. obs. elevation"
+                    }
+                ], 
+                "Type": "Gallery", 
+                "Title": "Figures"
+            }, 
+            {
+                "Data": "<div class=\"references\"><h3>References</h3> If you use this LIVVkit extension for any part of your modeling or analyses, please cite:<div class=\"bibliography\"><dl><dt>1</dt> <dd>Roger&nbsp;C. Bales, Qinghua Guo, Dayong Shen, Joseph&nbsp;R. McConnell, Guoming Du, John&nbsp;F. Burkhart, Vandy&nbsp;B. Spikes, Edward Hanna, and John Cappelen. Annual accumulation for greenland updated using ice core data developed during 2000\u20132006 and analysis of daily coastal meteorological data. <em>Journal of Geophysical Research: Atmospheres</em>, 114(D6):D06116, 2009. <a href=\"https://doi.org/10.1029/2008JD011208\">doi:10.1029/2008JD011208</a>.</dd> <dt>2</dt> <dd>J.&nbsp;Graham Cogley. Greenland accumulation: an error model. <em>Journal of Geophysical Research: Atmospheres</em>, 109(D18):D18101, 2004. <a href=\"https://doi.org/10.1029/2003JD004449\">doi:10.1029/2003JD004449</a>.</dd> <dt>3</dt> <dd>Joseph&nbsp;H. Kennedy, Andrew&nbsp;R. Bennett, Katherine&nbsp;J. Evans, Stephen Price, Matthew Hoffman, William&nbsp;H. Lipscomb, Jeremy Fyke, Lauren Vargo, Adrianna Boghozian, Matthew Norman, and Patrick&nbsp;H. Worley. Livvkit: an extensible, python-based, land ice verification and validation toolkit for ice sheet models. <em>Journal of Advances in Modeling Earth Systems</em>, 9(2):854\u2013869, 2017. <a href=\"https://doi.org/10.1002/2017MS000916\">doi:10.1002/2017MS000916</a>.</dd> <dt>4</dt> <dd>G.&nbsp;Lewis, E.&nbsp;Osterberg, R.&nbsp;Hawley, B.&nbsp;Whitmore, H.&nbsp;P. Marshall, and J.&nbsp;Box. Regional greenland accumulation variability from operation icebridge airborne accumulation radar. <em>The Cryosphere</em>, 11(2):773\u2013788, 2017. <a href=\"https://doi.org/10.5194/tc-11-773-2017\">doi:10.5194/tc-11-773-2017</a>.</dd> <dt>5</dt> <dd>Horst Machguth, Henrik&nbsp;H. Thomsen, Anker Weidick, Andreas&nbsp;P. Ahlstr\u00f8m, Jakob Abermann, Morten&nbsp;L. ANdersen, Signe&nbsp;B. Andersen, Anders&nbsp;A. Bj\u00f8rk, Jason&nbsp;E. Box, Roger&nbsp;J. Braithwaite, Carl&nbsp;E. B\u00f8ggild, Michele Citterio, Poul Clement, Wiliam Colgan, Robert&nbsp;S. Fausto, Karin Gleie, Stefanie Gubler, Bent Hasholt, Bernhard Hynek, Neils&nbsp;T. Knudsen, Signe&nbsp;H. Larsen, Sebastian&nbsp;H. Mernild, Johannes Oerlemans, Hans Oerter, Ole&nbsp;B. Olesen, C.J.P.&nbsp;Paul Smeets, Konrad Steffen, Manfred Stober, Shin Sugiyama, Dirk Van&nbsp;As, Michiel&nbsp;R. Van&nbsp;den Broeke, and Roderik&nbsp;S.W. Van&nbsp;de Wal. Greenland surface mass-balance observations from the ice-sheet ablation area and local glaciers. <em>Journal of Glaciology</em>, 62(235):861\u2013887, 2016. <a href=\"https://doi.org/10.1017/jog.2016.75\">doi:10.1017/jog.2016.75</a>.</dd> <dt>6</dt> <dd>H.&nbsp;Jay Zwally, Mario&nbsp;B. Giovinetto, Matthew&nbsp;A. Beckley, and Jack&nbsp;L. Saba. Antarctic and greenland drainage systems. <a href=\"http://icesat4.gsfc.nasa.gov/cryo_data/ant_grn_drainage_systems.php\">http://icesat4.gsfc.nasa.gov/cryo_data/ant_grn_drainage_systems.php</a>, 2012. GSFC Cryospheric Sciences Laboratory.</dd> </dl></div></div>", 
+                "Type": "HTML"
+            }
+        ]
+    }, 
+    "Type": "Page", 
+    "Description": " Validation of the Greenland Ice Sheet (GrIS) surface mass balance by\ncomparing modeled surface mass balance to estimates from in situ measurements\nand airborne radar. \n\nMass balance estimates in the accumulation zone are derived\nfrom Cogley et al. (2004) and Bales et al. (2009); 378 and 38 site\nmeasurements, respectively, are used. \n\nMass balance estimates in the ablation zone are derived from the PROMICE\nprogram (Machguth et al., 2016); 200 sites are used. \n\nAirborn SMB estimates are from NASA's opperation IceBridge and transects from\nthe 2013 and 2014 season are used (Lewis et al., 2017). \n\nSome figures below are delineated by drainage basins, which are based on Zwally\net al. (2012). \n", 
+    "Title": "smb_icecores"
+}

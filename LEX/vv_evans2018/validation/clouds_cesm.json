@@ -1,0 +1,61 @@
+{
+    "Data": {
+        "Elements": [
+            {
+                "Data": [
+                    {
+                        "Plot File": "clouds_cesm/CESM_cldhgh_ANN.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Climatological annual average of high cloud cover over Greenland for CESM (left), ISCCP (middle; Rossow and Schiffer, 1999), and CLOUDSAT (right; Kay and Gettelman, 2009). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by CESM.", 
+                        "Title": "High cloud cover over Greenland"
+                    }, 
+                    {
+                        "Plot File": "clouds_cesm/CESM_cldlow_ANN.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Climatological annual average of low cloud cover over Greenland for CESM (left), ISCCP (middle; Rossow and Schiffer, 1999), and CLOUDSAT (right; Kay and Gettelman, 2009). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by CESM.", 
+                        "Title": "Low cloud cover over Greenland"
+                    }, 
+                    {
+                        "Plot File": "clouds_cesm/CESM_cldtot_ANN.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Climatological annual average of cloud cover over Greenland for CESM (left), ISCCP (middle; Rossow and Schiffer, 1999), and CLOUDSAT (right; Kay and Gettelman, 2009). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by CESM.", 
+                        "Title": "Cloud cover over Greenland"
+                    }, 
+                    {
+                        "Plot File": "clouds_cesm/CESM_yearly_cycle_CLDHGH.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Climatological monthly average of total high cloud cover over Greenland for CESM (red), ISCCP (green; Rossow and Schiffer, 1999), and CLOUDSAT (cyan; Kay and Gettelman, 2009).", 
+                        "Title": "Monthly total high cloud cover over Greenland"
+                    }, 
+                    {
+                        "Plot File": "clouds_cesm/CESM_yearly_cycle_CLDLOW.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Climatological monthly average of total low cloud cover over Greenland for CESM (red), ISCCP (green; Rossow and Schiffer, 1999), and CLOUDSAT (cyan; Kay and Gettelman, 2009).", 
+                        "Title": "Monthly total low cloud cover over Greenland"
+                    }, 
+                    {
+                        "Plot File": "clouds_cesm/CESM_yearly_cycle_CLDTOT.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Climatological monthly average of total cloud cover over Greenland for CESM (red), ISCCP (green; Rossow and Schiffer, 1999), and CLOUDSAT (cyan; Kay and Gettelman, 2009).", 
+                        "Title": "Monthly total cloud cover over Greenland"
+                    }
+                ], 
+                "Type": "Gallery", 
+                "Title": "Figures"
+            }, 
+            {
+                "Data": "<div class=\"references\"><h3>References</h3> If you use this LIVVkit extension for any part of your modeling or analyses, please cite:<div class=\"bibliography\"><dl><dt>1</dt> <dd>Jennifer&nbsp;E. Kay and Andrew Gettelman. Cloud influence on and response to seasonal arctic sea ice loss. <em>Journal of Geophysical Research: Atmospheres</em>, 2009. D18204. <a href=\"https://doi.org/10.1029/2009JD011773\">doi:10.1029/2009JD011773</a>.</dd> <dt>2</dt> <dd>Joseph&nbsp;H. Kennedy, Andrew&nbsp;R. Bennett, Katherine&nbsp;J. Evans, Stephen Price, Matthew Hoffman, William&nbsp;H. Lipscomb, Jeremy Fyke, Lauren Vargo, Adrianna Boghozian, Matthew Norman, and Patrick&nbsp;H. Worley. Livvkit: an extensible, python-based, land ice verification and validation toolkit for ice sheet models. <em>Journal of Advances in Modeling Earth Systems</em>, 9(2):854\u2013869, 2017. <a href=\"https://doi.org/10.1002/2017MS000916\">doi:10.1002/2017MS000916</a>.</dd> <dt>3</dt> <dd>R.&nbsp;B. Rossow and R.A. Schiffer. Advances in understanding clouds from isccp. <em>Bulletin of the American Meteorological Society</em>, 80:2261\u20132287, 1999. <a href=\"https://doi.org/10.1175/1520-0477(1999)080<2261:AIUCFI>2.0.CO;2\">doi:10.1175/1520-0477(1999)080&lt;2261:AIUCFI&gt;2.0.CO;2</a>.</dd> </dl></div></div>", 
+                "Type": "HTML"
+            }
+        ]
+    }, 
+    "Type": "Page", 
+    "Description": "An analysis of CESM's cloud cover over Greenland.", 
+    "Title": "clouds_cesm"
+}

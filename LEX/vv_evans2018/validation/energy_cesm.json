@@ -1,0 +1,180 @@
+{
+    "Data": {
+        "Elements": [
+            {
+                "TableTitle": "Area weighted averages of energy balance variables.", 
+                "Data": {
+                    "": {
+                        "Downward shortwave radiation (W m^-2)": {
+                            "RACMO 2.3": "300.8", 
+                            "CESM": "267.9"
+                        }, 
+                        "Net shortwave radiation (W m^-2)": {
+                            "RACMO 2.3": "57.7", 
+                            "CESM": "60.8"
+                        }, 
+                        "Downward longwave radiation (W m^-2)": {
+                            "RACMO 2.3": "224.0", 
+                            "CESM": "234.8"
+                        }, 
+                        "Net longwave radiation (W m^-2)": {
+                            "RACMO 2.3": "-52.2", 
+                            "CESM": "-46.1"
+                        }, 
+                        "Net surface radiation (W m^-2)": {
+                            "RACMO 2.3": "5.5", 
+                            "CESM": "14.7"
+                        }, 
+                        "Sensible heat flux (W m^-2)": {
+                            "RACMO 2.3": "7.7", 
+                            "CESM": "6.6"
+                        }, 
+                        "Latent heat flux (W m^-2)": {
+                            "RACMO 2.3": "-5.2", 
+                            "CESM": "-8.3"
+                        }, 
+                        "Surface mass balance (Gt a^-1)": {
+                            "RACMO 2.3": "238.1", 
+                            "CESM": "0.0"
+                        }, 
+                        "2-meter air temperature (\u00b0C)": {
+                            "RACMO 2.3": "-21.9", 
+                            "CESM": "-20.6"
+                        }
+                    }
+                }, 
+                "Type": "V-H Table", 
+                "Headers": [
+                    "CESM", 
+                    "RACMO 2.3"
+                ], 
+                "Title": "Validation"
+            }, 
+            {
+                "Data": [
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_albedo_JJA.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the annual average surface albedo over Greenland for every summer (June-July-August; JJA) from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Summer surface albedo"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_latf_JJA.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the annual average latent heat flux (W m^-2) over Greenland for every summer (June-July-August; JJA) from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Summer latent heat flux"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_lwsd_JJA.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the annual average downward longwave radiation (W m^-2) over Greenland for every summer (June-July-August; JJA) from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Summer downward longwave radiation"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_lwsn_JJA.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the annual average net longwave radiation (W m^-2) over Greenland for every summer (June-July-August; JJA) from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Net summer longwave radiation"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_rnet_JJA.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the summer (June-July-August; JJA) average net radiation (W m^-2) over Greenland for every summer (June-July-August; JJA) from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Net summer radiation"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_senf_JJA.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the annual average sensible heat flux (W m^-2) over Greenland for every summer (June-July-August; JJA) from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Net shortwave radiation"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_smb_ANN.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the annual average surface mass balance (kg m^-2 a^-1) over Greenland for every summer (June-July-August; JJA) from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Summer surface mass balance"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_swsd_JJA.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the annual average downward shortwave radiation (W m^-2) over Greenland for every summer (June-July-August; JJA) from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Summer downward shortwave radiation"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_swsn_JJA.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the average net shortwave radiation (W m^-2) over Greenland for every summer (June-July-August; JJA) from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Net Summer shortwave radiation"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_t2m_ANN.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the annual average 2-meter air temperature (\u00b0C) over Greenland from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Annual 2-meter air temperature"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_t2m_DJF.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the 2-meter air temperature (\u00b0C) over Greenland for every winter (December-January-Feburary; DJF) from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Winter 2-meter air temperature"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/CESM_RACMO23_t2m_JJA.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Average of the 2-meter air temperature (\u00b0C) over Greenland for every summer (June-July-August; JJA) from 1980--1999 for CESM (left) and RACMO 2.3 (middle), and the difference between them (right; CESM - RACMO 2.3). The black solid lines denote the 0, 1000, 2000, and 3000 meter Greenland ice sheet elevation contours as seen by the models (CESM's contours shown in the difference plot).", 
+                        "Title": "Summer 2-meter air temperature"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/TimeSeries_T2M.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Time series of the (blue) CESM 2-meter air temperature (\u00b0C) for the entire 1850--2005 simulation compared to the (orange) 1958--2013 RACMO 2.3 2-meter air temperature.", 
+                        "Title": "2-meter air temperature time series"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/BoxPlot_T2M.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Box plot of the CESM 2-meter air temperature (\u00b0C) for the entire 1850--2005 simulation compared to the 1958--2013 RACMO 2.3 2-meter air temperature. Here, the colored lines represent the median values, the boxes are drawn from the first quartile to the third quartile (covering the interqartile range, or IQR), and the whiskers cover 1.5x the IQR. Diamonds outside the whiskers represent suspected outliers.", 
+                        "Title": "2-meter air temperature box plot"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/TimeSeries_QICE_GT.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Time series of the (blue) CESM surface mass balance (Gt a^-1) for the entire 1850--2005 simulation compared to the (orange) 1958--2013 RACMO 2.3 surface mass balance.", 
+                        "Title": "Surface mass balance time series"
+                    }, 
+                    {
+                        "Plot File": "energy_cesm/BoxPlot_QICE_GT.png", 
+                        "Height": 300, 
+                        "Type": "Image", 
+                        "Description": "Box plot of the CESM surface mass balance (Gt a^-1) for the entire 1850--2005 simulation compared to the 1958--2013 RACMO 2.3 surface mass balance. Here, the colored lines represent the median values, the boxes are drawn from the first quartile to the third quartile (covering the interqartile range, or IQR), and the whiskers cover 1.5x the IQR. Diamonds outside the whiskers represent suspected outliers.", 
+                        "Title": "Surface mass balance box plot"
+                    }
+                ], 
+                "Type": "Gallery", 
+                "Title": "Figures"
+            }, 
+            {
+                "Data": "<div class=\"references\"><h3>References</h3> If you use this LIVVkit extension for any part of your modeling or analyses, please cite:<div class=\"bibliography\"><dl><dt>1</dt> <dd>Joseph&nbsp;H. Kennedy, Andrew&nbsp;R. Bennett, Katherine&nbsp;J. Evans, Stephen Price, Matthew Hoffman, William&nbsp;H. Lipscomb, Jeremy Fyke, Lauren Vargo, Adrianna Boghozian, Matthew Norman, and Patrick&nbsp;H. Worley. Livvkit: an extensible, python-based, land ice verification and validation toolkit for ice sheet models. <em>Journal of Advances in Modeling Earth Systems</em>, 9(2):854\u2013869, 2017. <a href=\"https://doi.org/10.1002/2017MS000916\">doi:10.1002/2017MS000916</a>.</dd> </dl></div></div>", 
+                "Type": "HTML"
+            }
+        ]
+    }, 
+    "Type": "Page", 
+    "Description": "An analysis of CESM's energy balance over Greenland.", 
+    "Title": "energy_cesm"
+}
