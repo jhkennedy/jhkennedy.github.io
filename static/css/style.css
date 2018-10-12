@@ -1,0 +1,135 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+
+
+
+body {
+    font-family: Open Sans, Arial, Century gothic, sans-serif;
+    background-color: #DEDCD9;
+}
+
+@media (min-width: 960px) {
+    .container {
+        display: grid;
+        width: 960px;
+        margin: auto;
+        grid-template-columns: 320px auto auto;
+        grid-template-rows: 100px max-content 50px;
+
+    }
+}
+
+header {
+    grid-column: span 3;
+    text-align: center;
+    background-color: #214467;
+    color: white;
+}
+
+header .name {
+    float: left;
+    width: 320px;
+    height: 100px;
+    padding-right: 10px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
+    background-color: white;
+    color: #1c6ea0;
+}
+
+header .socialbar {
+    float: left;
+    width: 640px;
+}
+
+header .socialbar ul {
+    padding-top: 10px;
+    padding-right: 10px;
+    float: right;
+}
+
+header .socialbar li {
+    float: left;
+    padding: 10px 5px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    float: left;
+    padding: 5px 10px 10px 10px;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    margin-top: 30px;
+    background-color: white;
+}
+
+footer {
+    grid-column: span 3;
+    grid-row: 3 / 4;
+    padding: 30px;
+    text-align: center;
+    font-size: 0.8em;
+    background-color: #1f262a;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
+h3 {
+	font-size: 19px;
+}
+
+h4 {
+	font-size: 17px;
+}
+
+h5 {
+	font-size: 15px;
+}
+
+h6 {
+	font-size: 13px;
+}
+
+p {
+    margin: 1em 0;
+}
+
+a {
+    text-decoration: none;
+}
