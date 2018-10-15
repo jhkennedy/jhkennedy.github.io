@@ -12,12 +12,13 @@
         crossorigin="anonymous">
     </script>
     <script src="../static/js/jquery.flexslider-min.js"></script>
+    <script src="../static/js/custom.js"></script>
     <script type="text/javascript" charset="utf-8">
       $(window).on('load', function() {
         $('.flexslider').flexslider();
       });
     </script>
-    <title>My Curriculum Vitae | jhkennedy.org</title>
+    <title>My Résumé or Curriculum Vitae | jhkennedy.org</title>
 </head>
 <body class="container">
     <header>
@@ -26,6 +27,9 @@
         </div>
         <div class="socialbar">
             <ul class="social">
+                <li><a href="https://github.com/jhkennedy" target="_blank">
+                    <img src="../static/images/github.png">
+                </a></li>
                 <li><a href="https://www.mendeley.com/profiles/joseph-h-kennedy/" target="_blank">
                     <img src="../static/images/mendeley.png">
                 </a></li>
@@ -50,7 +54,7 @@
                     <li><a href="../software/">Software</a>
                     </li>
                 
-                    <li class="active"><a href="../cv/">C. V.</a>
+                    <li class="active"><a href="../cv/">Résumé/C.V.</a>
                     </li>
                 
                     <li><a href="../of-interest/">Of interest</a>
@@ -59,17 +63,36 @@
             </ul>
         </nav>
     </header>
+    
     <main>
-        <div class="page">
+        <div class="vitae">
             
-    <h2 class="page-title">My Curriculum Vitae</h2>
+    <h2 class="page-title">My Résumé or Curriculum Vitae</h2>
     <div class="center_text"></div>
-    <iframe src="../ViewerJS/?zoom=page-width#../static/Kennedy_cv.pdf"
-            width='960' height='1024' allowfullscreen>
-    </iframe>
+    <div class="tabs-nav">
+        <button class="tab-buttton" onclick="openTab(event, 'Resume')" id="defaultOpen">Résumé</button>
+        <button class="tab-buttton" onclick="openTab(event, 'Curriculum_vitae')">
+            Curriculum vitae
+        </button>
+    </div>
+    <div id="Resume" class="tab-content">
+        <iframe src="../ViewerJS/?zoom=page-width#../static/Kennedy_resume.pdf"
+                width='960' height='1024' allowfullscreen>
+        </iframe>
+    </div>
+    <div id="Curriculum_vitae" class="tab-content">
+        <iframe src="../ViewerJS/?zoom=page-width#../static/Kennedy_cv.pdf"
+                width='960' height='1024' allowfullscreen>
+        </iframe>
+    </div>
+    <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
 
         </div>
     </main>
+
     <footer>
         &copy; Copyright 2018, Joseph H. Kennedy.
     </footer>

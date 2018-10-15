@@ -51,6 +51,8 @@ h3.flex-caption-text {
 .page {
     line-height: 1.25;
     color: rgb(50 50 50);
+    padding: 20px 20px;
+    text-align: justify;
 }
 
 .page strong {
@@ -59,6 +61,32 @@ h3.flex-caption-text {
 
 .page em {
     font-style: italic;
+}
+
+.page ul{
+    padding-left: 40px;
+    list-style: circle;
+}
+
+.page ol{
+    padding-left: 40px;
+    list-style: decimal;
+}
+
+.page h3 {
+    padding-top: 0.5em;
+}
+
+.page h4 {
+    padding-top: 0.5em;
+}
+
+.vitae .page-title {
+    margin: 20px 20px;
+}
+
+.vitae .tabs-nav {
+    margin: 20px 20px;
 }
 
 .center_text {

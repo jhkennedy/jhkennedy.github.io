@@ -12,6 +12,7 @@
         crossorigin="anonymous">
     </script>
     <script src="../static/js/jquery.flexslider-min.js"></script>
+    <script src="../static/js/custom.js"></script>
     <script type="text/javascript" charset="utf-8">
       $(window).on('load', function() {
         $('.flexslider').flexslider();
@@ -26,6 +27,9 @@
         </div>
         <div class="socialbar">
             <ul class="social">
+                <li><a href="https://github.com/jhkennedy" target="_blank">
+                    <img src="../static/images/github.png">
+                </a></li>
                 <li><a href="https://www.mendeley.com/profiles/joseph-h-kennedy/" target="_blank">
                     <img src="../static/images/mendeley.png">
                 </a></li>
@@ -50,7 +54,7 @@
                     <li><a href="../software/">Software</a>
                     </li>
                 
-                    <li><a href="../cv/">C. V.</a>
+                    <li><a href="../cv/">Résumé/C.V.</a>
                     </li>
                 
                     <li><a href="../of-interest/">Of interest</a>
@@ -59,30 +63,68 @@
             </ul>
         </nav>
     </header>
+    
     <main>
         <div class="page">
             
   <h2 class="page-title">Research</h2>
-  <h3>Oct. 12, 2018 -- NOTE: This website is being converted from Drupal to a static site built with Lektor this weekend, please check back on monday for a site with significantly more content. Thanks!</h3>
-<p>Climate change is not only a complex scientific topic, but an increasingly pressing moral and
+  <p>Climate change is not only a complex scientific topic, but an increasingly pressing moral and
 political issue. The impact of climate change on human and natural systems in the future,
 and the decisions arising from those impacts, primarily rely on climate and Earth system model
 projections. It is, therefore, supremely critical to build <em>credible</em> models.</p>
-<p>The overarching theme to my research is <em>"How do we build credible models?"</em> I develop tools for ice
-sheet and Earth system modelers to help them evaluate and understand their models. And to
-provide the results of their evaluations to the wider scientific community, stake holders, and
-decision makes in a clear and understandable way.</p>
-<p>Formally, I use verification and validation techniques to help developers build confidence and
+<p>My research is focused on answering the fundamental questions of <em>How confident are we in our
+models?</em> and <em>How credible (trusted) are our models in the scientific community?</em> To that end, I
+develop tools for ice sheet and Earth system modelers to help them evaluate and understand their
+models; and to provide the results of their evaluations to the wider scientific community, stake
+holders, and decision makers in a clear and understandable way.</p>
+<p>Formally, I use verification and validation (V&amp;V) techniques to help developers build confidence and
 insight into their models, and focus on presenting those results in an understandable and contextual
-way.</p>
+way so that they can be used to build model credibility.</p>
 <h3>Building credible ice sheet models</h3>
-<p>... coming soon ...</p>
+<p>I’ve am both the technical and visionary lead for <a href="https://github.com/LIVVkit/LIVVkit">LIVVKit</a>, a
+python based open source and openly developed ice sheet model V&amp;V toolkit, which is intended to both
+build user/developer confidence and enhance the credibility of ice sheet models in the wider
+scientific community. V&amp;V is a set of formal computer science and mathematics techniques that allow
+users/developers (hereafter users) to quantify model confidence and improve user confidence in model
+results. LIVVkit allows users to run increasingly sophisticated (and therefore time intensive)
+component and model level tests as part of their normal development workflow, with detailed results
+of model improvement. This however, does not necessarily help build model credibility within the
+scientific community unless those testing results are discoverable by the scientific community, the
+methods and analyses are transparent, and the results are provided with the appropriate context so
+that they are understandable. To this end, LIVVkit has adopted a free (libre) software structure
+where not only is the source code open, but all observational data and an example set of model
+output used for the analyses is provided freely. Furthermore, LIVVkit results are provided in a
+portable website which can be easily shared and hosted, so that the results can be available to the
+scientific community. Importantly, an initial context is provided to help viewers understand the
+analyses and references to relevant journal articles describing the data and methods are provided
+with each analysis.</p>
 <h3>Climate reproducibility</h3>
-<p>... coming soon ...</p>
+<p>One of the major concerns in DOE’s Earth system model (<a href="https://e3sm.org/">E3SM</a>) development
+community is whether or not model or computing environment changes are changing the modeled climate,
+or if the changes fall within the models normal climactic variations. This is critical to E3SM
+development because climate-changing model/computing changes require an extensive validation process
+before they are integrated into the model. As part of the CMDV Software project (PIs: Dr. Andy
+Salinger and Dr. Caldwell), and in partnership with Dr. Mahajan and Dr. Evans at Oak Ridge National
+Laboratory we’ve developed <a href="https://github.com/LIVVkit/evv4esm">EVV</a>, a python package to evaluate
+the climate statistics of an Earth system model test ensemble against that of a baseline ensemble,
+by using several modern machine learning classification algorithms based on non-parametric
+(distribution- free) two-sample statistical tests (e.g., Kolmogorov-Smirnov or K-S test) for
+multivariate data. This allows us to classify the equality of the climate ensemble distributions,
+where the critical value for rejecting the null hypothesis is determined by using bootstrap
+resampling.</p>
+<p>EVV is currently being extended to include a other statistical test such as the Enery test,
+Crossmatch test, and the Anderson-Darling test which all compare the ensemble distributions in
+different ways. Due to the complexity of fully active Earth system model, and the sensitivity of the
+climate, there is a massive variety of changes that can result in a different climate, so having
+multiple complementary classifiers is necessary for determining the equality of climate
+ensembles. Furthermore, other ensemble testing techniques to determine changing climates are being
+developed in partnership with Pacific Northwest National Laboratory scientists Dr. Rash, Dr. Singh
+and Dr. Wan and will be included in EVV in the future.</p>
 
 
         </div>
     </main>
+
     <footer>
         &copy; Copyright 2018, Joseph H. Kennedy.
     </footer>
