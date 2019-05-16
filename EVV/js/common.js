@@ -1,5 +1,5 @@
 /*
-/ Copyright (c) 2015,2016, UT-BATTELLE, LLC
+/ Copyright (c) 2015-2018, UT-BATTELLE, LLC
 / All rights reserved.
 / 
 / Redistribution and use in source and binary forms, with or without
@@ -39,17 +39,22 @@ $(document).ready(function() {
         "Summary"        : drawSummary,
         "ValSummary"     : drawValSummary,
         "bookSummary"    : drawValSummary,
+        "Diff"           : drawDiff,
+        "Bit for Bit"    : drawBitForBit,
+        "Gallery"        : drawGallery,
+        "Table"          : drawTable,
         "Vertical Table" : drawVTable,
         "V-H Table"      : drawVHTable,
-        "Table"          : drawTable,
-        "Bit for Bit"    : drawBitForBit,
-        "Diff"           : drawDiff,
-        "Gallery"        : drawGallery
+        "HTML"           : drawHTML
     };
 
     // Append the generated content
     drawNav();
     drawContent();
+});
+
+$(window).load(function() {
+    $('img.caption').captionjs();
 });
 
 
@@ -352,7 +357,10 @@ function drawBitForBit(data, div) {
             var hData = data["Data"][varName][header];
             // Handle the different data types to draw (image vs string/numeric data)
             if (header == "Plot" && (hData !== "N/A" || hData.indexOf("ERROR:")!==-1)) {
-                html += "<td>" + drawThumbnail(hData, 50) + "</td>\n";
+                var img_dict = {};
+                img_dict["Plot File"] = data["Data"][varName][header];
+                img_dict["Title"] = varName + "Bit-for-bit compairson";
+                html += "<td>" + drawThumbnail(img_dict, 50) + "</td>\n";
             } else {
                 if (typeof hData == 'number') {
                     hData = hData.toExponential(5);
@@ -418,7 +426,7 @@ function drawVTable(data, div) {
 /**
  * Build a table with horizontal and vertical headers and add it to the div.
  *
- * @param {Object} data - The data representing the summary.  Determined by data["Type"] = "HVTable"
+ * @param {Object} data - The data representing the summary.  Determined by data["Type"] = "V-H Table"
  * @param {string} div - The name of the div to draw to.  Should be referenced as a string that 
  *                       determines whether it is a class or id (ie include # or .)
  */
@@ -500,32 +508,65 @@ function drawGallery(data, div) {
 /**
  * Draw an image
  *
- * @param {Object} data - The data representing the table.  Determined by data["Type"] = "Image"
+ * @param {Object} data - The data representing the image.  Determined by data["Type"] = "Image"
  * @param {string} div - The name of the div to draw to.  Should be referenced as a string that 
  *                       determines whether it is a class or id (ie include # or .)
  */
 function drawImage(img_elem, div) {
-    img_dir = window.location.href.substr(0,window.location.href.lastIndexOf('/')+1) + "imgs/";
-    var html = "<div><p>" + img_elem["Title"] + "</p>";
-    html += drawThumbnail(img_dir + img_elem["Plot File"], 200);
-    html += "<p style=\"width: 200px\">" + img_elem["Desciption"] + "</p>";
+    var html = "<div>";
+    html += drawLightbox(img_elem);
     html += "</div>"
     $(div).append(html);
 }
 
 /**
- * Draw an image thumbnail with a link to open in a new tab 
+ * Draw an image thumbnail with a link to open the image in a lightbox 
  *
- * @param {string} path - The location of the image to thumbnail-ize 
+ * @param {dictionary} img_elem  - Dictionary describing the image location, title, album, and caption
  * @param {number} size - The desired height to draw
  *
  * @return the html to embed into another element
  */
-function drawThumbnail(path, size) {
-    var html = "<a target=\"_blank\" href=\"" + path + "\">";
-    html += "<img class=\"thumbnail\" src=\"" + path + "\" style=\"height: " + size + "px; overflow: hidden; position: relative\">";
+function drawLightbox(img_elem) {
+    var img_dir = window.location.href.substr(0,window.location.href.lastIndexOf('/')+1) + "imgs/";
+    var path = img_dir + img_elem["Plot File"];
+    var lbox = img_elem["Group"] ? img_elem["Group"]  : img_elem["Title"];
+    var size = img_elem["Height"] ? img_elem["Height"]  : 200;
+    var html = "<a href=\"" + path + "\" data-lightbox=\"" + lbox + "\" data-title=\"" + img_elem["Description"] + "\">";
+    html += "<img class=\"thumbnail caption\" data-caption=\"" + img_elem["Title"]+ "\" alt=\"" + img_elem["Title"] + "\" src=\"" + path + "\" style=\"height: " + size + "px; overflow: hidden; position: relative\">";
     html += "</a>";
     return html;
+}
+
+/**
+ * Draw an image thumbnail with a link to open in a new tab 
+ *
+ * @param {string} path - The location of the image to thumbnail-size 
+ * @param {number} size - The desired height to draw
+ *
+ * @return the html to embed into another element
+ */
+function drawThumbnail(img_elem, size) {
+    var img_dir = window.location.href.substr(0,window.location.href.lastIndexOf('/')+1) + "imgs/";
+    var path = img_elem["Plot File"];
+    var html = "<a target=\"_blank\" href=\"" + path + "\">";
+    html += "<img class=\"thumbnail\" alt=\"" + img_elem["Title"] + "\" src=\"" + path + "\" style=\"height: " + size + "px; overflow: hidden; position: relative\">";
+    html += "</a>";
+    return html;
+}
+
+/**
+ * Draw HTML element
+ *
+ * @param {Object} data - The data representing the html element. Determined by data["Type"] = "HTML"
+ * @param {string} div - The name of the div to draw to.  Should be referenced as a string that 
+ *                       determines whether it is a class or id (ie include # or .)
+ */
+function drawHTML (data, div) {
+    var html = "<div>";
+    html += data["Data"];
+    html += "</div>";
+    $(div).append(html);
 }
 
 /**

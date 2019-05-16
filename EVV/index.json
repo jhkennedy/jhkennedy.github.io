@@ -1,30 +1,51 @@
 {
-    "Type": "Page",
-    "Title": "Summary",
-    "Description": "",
     "Data": {
         "Elements": [
             {
-                "Type": "ValSummary",
-                "Title": "Validation",
-                "TableTitle": "Kolmogorov\u2013Smirnov",
-                "Headers": [
-                    "Variables Analyzed",
-                    "Rejecting",
-                    "Critical Value",
-                    "Ensembles"
-                ],
+                "TableTitle": "Kolmogorov-Smirnov", 
                 "Data": {
-                    "default_v_fast": {
+                    "mvk_test_local": {
                         "": {
-                            "Variables Analyzed": 158,
-                            "Rejecting": 26,
-                            "Critical Value": 13.0,
-                            "Ensembles": "distinct"
+                            "Case": "mvk_test_local", 
+                            "Variables Analyzed": 378, 
+                            "Critical Value": 13.0, 
+                            "Rejecting": 0, 
+                            "Ensembles": "identical"
                         }
                     }
-                }
+                }, 
+                "Type": "ValSummary", 
+                "Headers": [
+                    "Variables Analyzed", 
+                    "Rejecting", 
+                    "Critical Value", 
+                    "Ensembles"
+                ], 
+                "Title": "Validation"
+            }, 
+            {
+                "TableTitle": "Perturbation growth test", 
+                "Data": {
+                    "pge_test_local": {
+                        "": {
+                            "Case": "pge_test_local", 
+                            "T test (t, p)": "(0.0, 1.0)", 
+                            "Null hypothesis": "accept", 
+                            "Ensembles": "identical"
+                        }
+                    }
+                }, 
+                "Type": "ValSummary", 
+                "Headers": [
+                    "Null hypothesis", 
+                    "T test (t, p)", 
+                    "Ensembles"
+                ], 
+                "Title": "Validation"
             }
         ]
-    }
+    }, 
+    "Type": "Page", 
+    "Description": "", 
+    "Title": "Summary"
 }
