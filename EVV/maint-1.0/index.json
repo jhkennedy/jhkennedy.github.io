@@ -1,0 +1,31 @@
+{
+    "Data": {
+        "Elements": [
+            {
+                "TableTitle": "Kolmogorov-Smirnov", 
+                "Data": {
+                    "mvk_test_local": {
+                        "": {
+                            "Case": "mvk_test_local", 
+                            "Variables Analyzed": 118, 
+                            "Critical Value": 13.0, 
+                            "Rejecting": 29, 
+                            "Ensembles": "distinct"
+                        }
+                    }
+                }, 
+                "Type": "ValSummary", 
+                "Headers": [
+                    "Variables Analyzed", 
+                    "Rejecting", 
+                    "Critical Value", 
+                    "Ensembles"
+                ], 
+                "Title": "Validation"
+            }
+        ]
+    }, 
+    "Type": "Page", 
+    "Description": "", 
+    "Title": "Summary"
+}
