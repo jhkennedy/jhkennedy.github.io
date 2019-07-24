@@ -2,12 +2,12 @@
     "Data": {
         "Elements": [
             {
-                "TableTitle": "Kolmogorov-Smirnov", 
+                "TableTitle": "Kolmogorov-Smirnov test", 
                 "Data": {
                     "mvk_test_local": {
                         "": {
                             "Case": "mvk_test_local", 
-                            "Variables Analyzed": 378, 
+                            "Variables Analyzed": 118, 
                             "Critical Value": 13.0, 
                             "Rejecting": 0, 
                             "Ensembles": "identical"
@@ -19,6 +19,28 @@
                     "Variables Analyzed", 
                     "Rejecting", 
                     "Critical Value", 
+                    "Ensembles"
+                ], 
+                "Title": "Validation"
+            }, 
+            {
+                "TableTitle": "Time step convergence test", 
+                "Data": {
+                    "tsc_test_local": {
+                        "": {
+                            "Case": "tsc_test_local", 
+                            "Land": "Fail", 
+                            "Global": "Fail", 
+                            "Ensembles": "distinct", 
+                            "Ocean": "Fail"
+                        }
+                    }
+                }, 
+                "Type": "ValSummary", 
+                "Headers": [
+                    "Global", 
+                    "Land", 
+                    "Ocean", 
                     "Ensembles"
                 ], 
                 "Title": "Validation"

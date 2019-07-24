@@ -12,7 +12,8 @@
                     "T test (t, p)": [
                         0.0, 
                         1.0
-                    ]
+                    ], 
+                    "Ensembles": "identical"
                 }, 
                 "Title": "Results"
             }, 
