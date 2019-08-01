@@ -4,6 +4,726 @@
             {
                 "Elements": [
                     {
+                        "Data": [
+                            {
+                                "Plot File": "mvk_test_local/AEROD_v.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of AEROD_v for <em>Test</em> is 1.119e-01 and for <em>Reference</em> is 1.119e-01", 
+                                "Title": "AEROD_v"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/ANRAIN.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of ANRAIN for <em>Test</em> is 4.612e+02 and for <em>Reference</em> is 4.612e+02", 
+                                "Title": "ANRAIN"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/ANSNOW.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of ANSNOW for <em>Test</em> is 1.048e+02 and for <em>Reference</em> is 1.048e+02", 
+                                "Title": "ANSNOW"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/AODDUST1.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of AODDUST1 for <em>Test</em> is 1.390e-03 and for <em>Reference</em> is 1.390e-03", 
+                                "Title": "AODDUST1"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/AODDUST3.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of AODDUST3 for <em>Test</em> is 2.312e-03 and for <em>Reference</em> is 2.312e-03", 
+                                "Title": "AODDUST3"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/AODVIS.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of AODVIS for <em>Test</em> is 1.119e-01 and for <em>Reference</em> is 1.119e-01", 
+                                "Title": "AODVIS"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/AQRAIN.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of AQRAIN for <em>Test</em> is 2.110e-07 and for <em>Reference</em> is 2.110e-07", 
+                                "Title": "AQRAIN"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/AQSNOW.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of AQSNOW for <em>Test</em> is 9.767e-07 and for <em>Reference</em> is 9.767e-07", 
+                                "Title": "AQSNOW"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/AREI.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of AREI for <em>Test</em> is 2.749e+00 and for <em>Reference</em> is 2.749e+00", 
+                                "Title": "AREI"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/AREL.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of AREL for <em>Test</em> is 1.252e-01 and for <em>Reference</em> is 1.252e-01", 
+                                "Title": "AREL"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/AWNC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of AWNC for <em>Test</em> is 4.273e+05 and for <em>Reference</em> is 4.273e+05", 
+                                "Title": "AWNC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/AWNI.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of AWNI for <em>Test</em> is 1.308e+04 and for <em>Reference</em> is 1.308e+04", 
+                                "Title": "AWNI"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/CCN3.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of CCN3 for <em>Test</em> is 3.149e+01 and for <em>Reference</em> is 3.149e+01", 
+                                "Title": "CCN3"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/CDNUMC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of CDNUMC for <em>Test</em> is 1.017e+10 and for <em>Reference</em> is 1.017e+10", 
+                                "Title": "CDNUMC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/CLDHGH.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of CLDHGH for <em>Test</em> is 3.658e-01 and for <em>Reference</em> is 3.658e-01", 
+                                "Title": "CLDHGH"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/CLDICE.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of CLDICE for <em>Test</em> is 5.021e-07 and for <em>Reference</em> is 5.021e-07", 
+                                "Title": "CLDICE"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/CLDLIQ.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of CLDLIQ for <em>Test</em> is 1.182e-06 and for <em>Reference</em> is 1.182e-06", 
+                                "Title": "CLDLIQ"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/CLDLOW.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of CLDLOW for <em>Test</em> is 3.055e-01 and for <em>Reference</em> is 3.055e-01", 
+                                "Title": "CLDLOW"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/CLDMED.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of CLDMED for <em>Test</em> is 3.699e-01 and for <em>Reference</em> is 3.699e-01", 
+                                "Title": "CLDMED"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/CLDTOT.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of CLDTOT for <em>Test</em> is 6.157e-01 and for <em>Reference</em> is 6.157e-01", 
+                                "Title": "CLDTOT"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/CLOUD.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of CLOUD for <em>Test</em> is 8.770e-02 and for <em>Reference</em> is 8.770e-02", 
+                                "Title": "CLOUD"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/DCQ.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of DCQ for <em>Test</em> is 3.373e-10 and for <em>Reference</em> is 3.373e-10", 
+                                "Title": "DCQ"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/DMS_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of DMS_SRF for <em>Test</em> is 1.432e-10 and for <em>Reference</em> is 1.432e-10", 
+                                "Title": "DMS_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/DTCOND.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of DTCOND for <em>Test</em> is 6.677e-06 and for <em>Reference</em> is 6.677e-06", 
+                                "Title": "DTCOND"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FICE.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FICE for <em>Test</em> is 2.625e-01 and for <em>Reference</em> is 2.625e-01", 
+                                "Title": "FICE"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FLDS.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FLDS for <em>Test</em> is 3.365e+02 and for <em>Reference</em> is 3.365e+02", 
+                                "Title": "FLDS"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FLNS.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FLNS for <em>Test</em> is 6.288e+01 and for <em>Reference</em> is 6.288e+01", 
+                                "Title": "FLNS"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FLNSC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FLNSC for <em>Test</em> is 8.504e+01 and for <em>Reference</em> is 8.504e+01", 
+                                "Title": "FLNSC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FLNT.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FLNT for <em>Test</em> is 2.307e+02 and for <em>Reference</em> is 2.307e+02", 
+                                "Title": "FLNT"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FLNTC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FLNTC for <em>Test</em> is 2.584e+02 and for <em>Reference</em> is 2.584e+02", 
+                                "Title": "FLNTC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FLUT.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FLUT for <em>Test</em> is 2.311e+02 and for <em>Reference</em> is 2.311e+02", 
+                                "Title": "FLUT"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FLUTC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FLUTC for <em>Test</em> is 2.588e+02 and for <em>Reference</em> is 2.588e+02", 
+                                "Title": "FLUTC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FREQI.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FREQI for <em>Test</em> is 4.642e-02 and for <em>Reference</em> is 4.642e-02", 
+                                "Title": "FREQI"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FREQL.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FREQL for <em>Test</em> is 1.017e-02 and for <em>Reference</em> is 1.017e-02", 
+                                "Title": "FREQL"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FREQR.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FREQR for <em>Test</em> is 1.879e-02 and for <em>Reference</em> is 1.879e-02", 
+                                "Title": "FREQR"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FREQS.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FREQS for <em>Test</em> is 6.308e-02 and for <em>Reference</em> is 6.308e-02", 
+                                "Title": "FREQS"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FSDS.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FSDS for <em>Test</em> is 1.985e+02 and for <em>Reference</em> is 1.985e+02", 
+                                "Title": "FSDS"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FSDSC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FSDSC for <em>Test</em> is 2.459e+02 and for <em>Reference</em> is 2.459e+02", 
+                                "Title": "FSDSC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FSNS.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FSNS for <em>Test</em> is 1.735e+02 and for <em>Reference</em> is 1.735e+02", 
+                                "Title": "FSNS"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FSNSC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FSNSC for <em>Test</em> is 2.156e+02 and for <em>Reference</em> is 2.156e+02", 
+                                "Title": "FSNSC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FSNT.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FSNT for <em>Test</em> is 2.480e+02 and for <em>Reference</em> is 2.480e+02", 
+                                "Title": "FSNT"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FSNTC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FSNTC for <em>Test</em> is 2.886e+02 and for <em>Reference</em> is 2.886e+02", 
+                                "Title": "FSNTC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FSNTOA.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FSNTOA for <em>Test</em> is 2.483e+02 and for <em>Reference</em> is 2.483e+02", 
+                                "Title": "FSNTOA"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FSNTOAC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FSNTOAC for <em>Test</em> is 2.889e+02 and for <em>Reference</em> is 2.889e+02", 
+                                "Title": "FSNTOAC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/FSUTOA.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of FSUTOA for <em>Test</em> is 9.241e+01 and for <em>Reference</em> is 9.241e+01", 
+                                "Title": "FSUTOA"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/H2O2_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of H2O2_SRF for <em>Test</em> is 3.627e-10 and for <em>Reference</em> is 3.627e-10", 
+                                "Title": "H2O2_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/H2SO4_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of H2SO4_SRF for <em>Test</em> is 1.201e-13 and for <em>Reference</em> is 1.201e-13", 
+                                "Title": "H2SO4_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/ICEFRAC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of ICEFRAC for <em>Test</em> is 3.618e-02 and for <em>Reference</em> is 3.618e-02", 
+                                "Title": "ICEFRAC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/ICIMR.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of ICIMR for <em>Test</em> is 3.191e-06 and for <em>Reference</em> is 3.191e-06", 
+                                "Title": "ICIMR"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/ICWMR.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of ICWMR for <em>Test</em> is 1.768e-05 and for <em>Reference</em> is 1.768e-05", 
+                                "Title": "ICWMR"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/IWC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of IWC for <em>Test</em> is 5.847e-07 and for <em>Reference</em> is 5.847e-07", 
+                                "Title": "IWC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/LANDFRAC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of LANDFRAC for <em>Test</em> is 2.980e-01 and for <em>Reference</em> is 2.980e-01", 
+                                "Title": "LANDFRAC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/LHFLX.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of LHFLX for <em>Test</em> is 7.249e+01 and for <em>Reference</em> is 7.249e+01", 
+                                "Title": "LHFLX"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/LWCF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of LWCF for <em>Test</em> is 2.767e+01 and for <em>Reference</em> is 2.767e+01", 
+                                "Title": "LWCF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/NUMICE.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of NUMICE for <em>Test</em> is 3.603e+04 and for <em>Reference</em> is 3.603e+04", 
+                                "Title": "NUMICE"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/NUMLIQ.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of NUMLIQ for <em>Test</em> is 7.107e+05 and for <em>Reference</em> is 7.107e+05", 
+                                "Title": "NUMLIQ"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/OCNFRAC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of OCNFRAC for <em>Test</em> is 6.658e-01 and for <em>Reference</em> is 6.658e-01", 
+                                "Title": "OCNFRAC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/OMEGA.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of OMEGA for <em>Test</em> is -1.848e-04 and for <em>Reference</em> is -1.848e-04", 
+                                "Title": "OMEGA"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/OMEGAT.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of OMEGAT for <em>Test</em> is -8.842e-02 and for <em>Reference</em> is -8.842e-02", 
+                                "Title": "OMEGAT"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/PBLH.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of PBLH for <em>Test</em> is 7.109e+02 and for <em>Reference</em> is 7.109e+02", 
+                                "Title": "PBLH"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/PHIS.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of PHIS for <em>Test</em> is 2.240e+03 and for <em>Reference</em> is 2.240e+03", 
+                                "Title": "PHIS"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/PRECC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of PRECC for <em>Test</em> is 2.165e-08 and for <em>Reference</em> is 2.165e-08", 
+                                "Title": "PRECC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/PRECL.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of PRECL for <em>Test</em> is 7.782e-09 and for <em>Reference</em> is 7.782e-09", 
+                                "Title": "PRECL"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/PRECSC.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of PRECSC for <em>Test</em> is 5.394e-10 and for <em>Reference</em> is 5.394e-10", 
+                                "Title": "PRECSC"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/PRECSL.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of PRECSL for <em>Test</em> is 1.338e-09 and for <em>Reference</em> is 1.338e-09", 
+                                "Title": "PRECSL"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/PS.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of PS for <em>Test</em> is 9.859e+04 and for <em>Reference</em> is 9.859e+04", 
+                                "Title": "PS"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/PSL.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of PSL for <em>Test</em> is 1.013e+05 and for <em>Reference</em> is 1.013e+05", 
+                                "Title": "PSL"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/Q.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of Q for <em>Test</em> is 2.296e-03 and for <em>Reference</em> is 2.296e-03", 
+                                "Title": "Q"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/QFLX.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of QFLX for <em>Test</em> is 2.898e-05 and for <em>Reference</em> is 2.898e-05", 
+                                "Title": "QFLX"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/QREFHT.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of QREFHT for <em>Test</em> is 9.882e-03 and for <em>Reference</em> is 9.882e-03", 
+                                "Title": "QREFHT"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/QRL.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of QRL for <em>Test</em> is -3.227e-05 and for <em>Reference</em> is -3.227e-05", 
+                                "Title": "QRL"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/QRS.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of QRS for <em>Test</em> is 2.588e-05 and for <em>Reference</em> is 2.588e-05", 
+                                "Title": "QRS"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/RELHUM.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of RELHUM for <em>Test</em> is 4.177e+01 and for <em>Reference</em> is 4.177e+01", 
+                                "Title": "RELHUM"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/SHFLX.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of SHFLX for <em>Test</em> is 2.081e+01 and for <em>Reference</em> is 2.081e+01", 
+                                "Title": "SHFLX"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/SNOWHICE.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of SNOWHICE for <em>Test</em> is 9.084e+29 and for <em>Reference</em> is 9.084e+29", 
+                                "Title": "SNOWHICE"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/SNOWHLND.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of SNOWHLND for <em>Test</em> is 4.562e-02 and for <em>Reference</em> is 4.562e-02", 
+                                "Title": "SNOWHLND"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/SO2_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of SO2_SRF for <em>Test</em> is 5.329e-10 and for <em>Reference</em> is 5.329e-10", 
+                                "Title": "SO2_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/SOAG_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of SOAG_SRF for <em>Test</em> is 6.695e-10 and for <em>Reference</em> is 6.695e-10", 
+                                "Title": "SOAG_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/SOLIN.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of SOLIN for <em>Test</em> is 3.407e+02 and for <em>Reference</em> is 3.407e+02", 
+                                "Title": "SOLIN"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/SWCF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of SWCF for <em>Test</em> is -4.054e+01 and for <em>Reference</em> is -4.054e+01", 
+                                "Title": "SWCF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/T.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of T for <em>Test</em> is 2.469e+02 and for <em>Reference</em> is 2.469e+02", 
+                                "Title": "T"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TAUGWX.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TAUGWX for <em>Test</em> is 4.661e-04 and for <em>Reference</em> is 4.661e-04", 
+                                "Title": "TAUGWX"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TAUGWY.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TAUGWY for <em>Test</em> is 3.014e-04 and for <em>Reference</em> is 3.014e-04", 
+                                "Title": "TAUGWY"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TAUX.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TAUX for <em>Test</em> is -1.133e-03 and for <em>Reference</em> is -1.133e-03", 
+                                "Title": "TAUX"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TAUY.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TAUY for <em>Test</em> is -6.188e-03 and for <em>Reference</em> is -6.188e-03", 
+                                "Title": "TAUY"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TGCLDCWP.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TGCLDCWP for <em>Test</em> is 4.578e-02 and for <em>Reference</em> is 4.578e-02", 
+                                "Title": "TGCLDCWP"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TGCLDIWP.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TGCLDIWP for <em>Test</em> is 1.467e-02 and for <em>Reference</em> is 1.467e-02", 
+                                "Title": "TGCLDIWP"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TGCLDLWP.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TGCLDLWP for <em>Test</em> is 3.111e-02 and for <em>Reference</em> is 3.111e-02", 
+                                "Title": "TGCLDLWP"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TMQ.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TMQ for <em>Test</em> is 2.459e+01 and for <em>Reference</em> is 2.459e+01", 
+                                "Title": "TMQ"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TREFHT.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TREFHT for <em>Test</em> is 2.874e+02 and for <em>Reference</em> is 2.874e+02", 
+                                "Title": "TREFHT"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TS.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TS for <em>Test</em> is 2.883e+02 and for <em>Reference</em> is 2.883e+02", 
+                                "Title": "TS"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TSMN.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TSMN for <em>Test</em> is 2.837e+02 and for <em>Reference</em> is 2.837e+02", 
+                                "Title": "TSMN"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/TSMX.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of TSMX for <em>Test</em> is 2.935e+02 and for <em>Reference</em> is 2.935e+02", 
+                                "Title": "TSMX"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/U.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of U for <em>Test</em> is 1.096e+01 and for <em>Reference</em> is 1.096e+01", 
+                                "Title": "U"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/U10.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of U10 for <em>Test</em> is 4.656e+00 and for <em>Reference</em> is 4.656e+00", 
+                                "Title": "U10"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/UU.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of UU for <em>Test</em> is 5.341e+02 and for <em>Reference</em> is 5.341e+02", 
+                                "Title": "UU"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/V.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of V for <em>Test</em> is -8.482e-04 and for <em>Reference</em> is -8.482e-04", 
+                                "Title": "V"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/VQ.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of VQ for <em>Test</em> is 6.922e-04 and for <em>Reference</em> is 6.922e-04", 
+                                "Title": "VQ"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/VT.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of VT for <em>Test</em> is 1.755e+00 and for <em>Reference</em> is 1.755e+00", 
+                                "Title": "VT"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/VU.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of VU for <em>Test</em> is -7.327e-02 and for <em>Reference</em> is -7.327e-02", 
+                                "Title": "VU"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/VV.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of VV for <em>Test</em> is 4.627e+01 and for <em>Reference</em> is 4.627e+01", 
+                                "Title": "VV"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/WSUB.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of WSUB for <em>Test</em> is 2.280e-01 and for <em>Reference</em> is 2.280e-01", 
+                                "Title": "WSUB"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/Z3.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of Z3 for <em>Test</em> is 1.571e+04 and for <em>Reference</em> is 1.571e+04", 
+                                "Title": "Z3"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/bc_a1_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of bc_a1_SRF for <em>Test</em> is 5.099e-11 and for <em>Reference</em> is 5.099e-11", 
+                                "Title": "bc_a1_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/dst_a1_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of dst_a1_SRF for <em>Test</em> is 2.733e-10 and for <em>Reference</em> is 2.733e-10", 
+                                "Title": "dst_a1_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/dst_a3_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of dst_a3_SRF for <em>Test</em> is 2.015e-09 and for <em>Reference</em> is 2.015e-09", 
+                                "Title": "dst_a3_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/ncl_a1_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of ncl_a1_SRF for <em>Test</em> is 2.127e-10 and for <em>Reference</em> is 2.127e-10", 
+                                "Title": "ncl_a1_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/ncl_a2_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of ncl_a2_SRF for <em>Test</em> is 1.586e-13 and for <em>Reference</em> is 1.586e-13", 
+                                "Title": "ncl_a2_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/ncl_a3_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of ncl_a3_SRF for <em>Test</em> is 2.078e-09 and for <em>Reference</em> is 2.078e-09", 
+                                "Title": "ncl_a3_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/num_a1_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of num_a1_SRF for <em>Test</em> is 2.511e+08 and for <em>Reference</em> is 2.511e+08", 
+                                "Title": "num_a1_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/num_a2_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of num_a2_SRF for <em>Test</em> is 1.027e+09 and for <em>Reference</em> is 1.027e+09", 
+                                "Title": "num_a2_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/num_a3_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of num_a3_SRF for <em>Test</em> is 4.023e+05 and for <em>Reference</em> is 4.023e+05", 
+                                "Title": "num_a3_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/pom_a1_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of pom_a1_SRF for <em>Test</em> is 3.370e-10 and for <em>Reference</em> is 3.370e-10", 
+                                "Title": "pom_a1_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/so4_a1_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of so4_a1_SRF for <em>Test</em> is 1.582e-09 and for <em>Reference</em> is 1.582e-09", 
+                                "Title": "so4_a1_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/so4_a2_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of so4_a2_SRF for <em>Test</em> is 5.334e-11 and for <em>Reference</em> is 5.334e-11", 
+                                "Title": "so4_a2_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/so4_a3_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of so4_a3_SRF for <em>Test</em> is 4.701e-11 and for <em>Reference</em> is 4.701e-11", 
+                                "Title": "so4_a3_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/soa_a1_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of soa_a1_SRF for <em>Test</em> is 4.577e-10 and for <em>Reference</em> is 4.577e-10", 
+                                "Title": "soa_a1_SRF"
+                            }, 
+                            {
+                                "Plot File": "mvk_test_local/soa_a2_SRF.png", 
+                                "Type": "Image", 
+                                "Description": "Mean annual global average of soa_a2_SRF for <em>Test</em> is 2.457e-12 and for <em>Reference</em> is 2.457e-12", 
+                                "Title": "soa_a2_SRF"
+                            }
+                        ], 
+                        "Type": "Gallery", 
+                        "Title": "Analyzed variables"
+                    }
+                ], 
+                "Type": "Tab", 
+                "Title": "Figures"
+            }, 
+            {
+                "Elements": [
+                    {
                         "TableTitle": "Analyzed variables", 
                         "Data": {
                             "": {
@@ -3205,732 +3925,41 @@
                     }
                 ], 
                 "Type": "Tab", 
-                "Title": "Table"
+                "Title": "Details"
             }, 
             {
                 "Elements": [
                     {
-                        "Data": [
-                            {
-                                "Plot File": "mvk_test_local/AEROD_v.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of AEROD_v for <em>Test</em> is 1.119e-01 and for <em>Reference</em> is 1.119e-01", 
-                                "Title": "AEROD_v"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/ANRAIN.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of ANRAIN for <em>Test</em> is 4.612e+02 and for <em>Reference</em> is 4.612e+02", 
-                                "Title": "ANRAIN"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/ANSNOW.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of ANSNOW for <em>Test</em> is 1.048e+02 and for <em>Reference</em> is 1.048e+02", 
-                                "Title": "ANSNOW"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/AODDUST1.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of AODDUST1 for <em>Test</em> is 1.390e-03 and for <em>Reference</em> is 1.390e-03", 
-                                "Title": "AODDUST1"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/AODDUST3.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of AODDUST3 for <em>Test</em> is 2.312e-03 and for <em>Reference</em> is 2.312e-03", 
-                                "Title": "AODDUST3"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/AODVIS.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of AODVIS for <em>Test</em> is 1.119e-01 and for <em>Reference</em> is 1.119e-01", 
-                                "Title": "AODVIS"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/AQRAIN.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of AQRAIN for <em>Test</em> is 2.110e-07 and for <em>Reference</em> is 2.110e-07", 
-                                "Title": "AQRAIN"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/AQSNOW.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of AQSNOW for <em>Test</em> is 9.767e-07 and for <em>Reference</em> is 9.767e-07", 
-                                "Title": "AQSNOW"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/AREI.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of AREI for <em>Test</em> is 2.749e+00 and for <em>Reference</em> is 2.749e+00", 
-                                "Title": "AREI"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/AREL.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of AREL for <em>Test</em> is 1.252e-01 and for <em>Reference</em> is 1.252e-01", 
-                                "Title": "AREL"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/AWNC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of AWNC for <em>Test</em> is 4.273e+05 and for <em>Reference</em> is 4.273e+05", 
-                                "Title": "AWNC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/AWNI.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of AWNI for <em>Test</em> is 1.308e+04 and for <em>Reference</em> is 1.308e+04", 
-                                "Title": "AWNI"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/CCN3.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of CCN3 for <em>Test</em> is 3.149e+01 and for <em>Reference</em> is 3.149e+01", 
-                                "Title": "CCN3"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/CDNUMC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of CDNUMC for <em>Test</em> is 1.017e+10 and for <em>Reference</em> is 1.017e+10", 
-                                "Title": "CDNUMC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/CLDHGH.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of CLDHGH for <em>Test</em> is 3.658e-01 and for <em>Reference</em> is 3.658e-01", 
-                                "Title": "CLDHGH"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/CLDICE.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of CLDICE for <em>Test</em> is 5.021e-07 and for <em>Reference</em> is 5.021e-07", 
-                                "Title": "CLDICE"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/CLDLIQ.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of CLDLIQ for <em>Test</em> is 1.182e-06 and for <em>Reference</em> is 1.182e-06", 
-                                "Title": "CLDLIQ"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/CLDLOW.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of CLDLOW for <em>Test</em> is 3.055e-01 and for <em>Reference</em> is 3.055e-01", 
-                                "Title": "CLDLOW"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/CLDMED.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of CLDMED for <em>Test</em> is 3.699e-01 and for <em>Reference</em> is 3.699e-01", 
-                                "Title": "CLDMED"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/CLDTOT.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of CLDTOT for <em>Test</em> is 6.157e-01 and for <em>Reference</em> is 6.157e-01", 
-                                "Title": "CLDTOT"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/CLOUD.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of CLOUD for <em>Test</em> is 8.770e-02 and for <em>Reference</em> is 8.770e-02", 
-                                "Title": "CLOUD"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/DCQ.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of DCQ for <em>Test</em> is 3.373e-10 and for <em>Reference</em> is 3.373e-10", 
-                                "Title": "DCQ"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/DMS_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of DMS_SRF for <em>Test</em> is 1.432e-10 and for <em>Reference</em> is 1.432e-10", 
-                                "Title": "DMS_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/DTCOND.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of DTCOND for <em>Test</em> is 6.677e-06 and for <em>Reference</em> is 6.677e-06", 
-                                "Title": "DTCOND"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FICE.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FICE for <em>Test</em> is 2.625e-01 and for <em>Reference</em> is 2.625e-01", 
-                                "Title": "FICE"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FLDS.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FLDS for <em>Test</em> is 3.365e+02 and for <em>Reference</em> is 3.365e+02", 
-                                "Title": "FLDS"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FLNS.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FLNS for <em>Test</em> is 6.288e+01 and for <em>Reference</em> is 6.288e+01", 
-                                "Title": "FLNS"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FLNSC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FLNSC for <em>Test</em> is 8.504e+01 and for <em>Reference</em> is 8.504e+01", 
-                                "Title": "FLNSC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FLNT.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FLNT for <em>Test</em> is 2.307e+02 and for <em>Reference</em> is 2.307e+02", 
-                                "Title": "FLNT"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FLNTC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FLNTC for <em>Test</em> is 2.584e+02 and for <em>Reference</em> is 2.584e+02", 
-                                "Title": "FLNTC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FLUT.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FLUT for <em>Test</em> is 2.311e+02 and for <em>Reference</em> is 2.311e+02", 
-                                "Title": "FLUT"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FLUTC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FLUTC for <em>Test</em> is 2.588e+02 and for <em>Reference</em> is 2.588e+02", 
-                                "Title": "FLUTC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FREQI.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FREQI for <em>Test</em> is 4.642e-02 and for <em>Reference</em> is 4.642e-02", 
-                                "Title": "FREQI"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FREQL.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FREQL for <em>Test</em> is 1.017e-02 and for <em>Reference</em> is 1.017e-02", 
-                                "Title": "FREQL"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FREQR.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FREQR for <em>Test</em> is 1.879e-02 and for <em>Reference</em> is 1.879e-02", 
-                                "Title": "FREQR"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FREQS.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FREQS for <em>Test</em> is 6.308e-02 and for <em>Reference</em> is 6.308e-02", 
-                                "Title": "FREQS"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FSDS.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FSDS for <em>Test</em> is 1.985e+02 and for <em>Reference</em> is 1.985e+02", 
-                                "Title": "FSDS"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FSDSC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FSDSC for <em>Test</em> is 2.459e+02 and for <em>Reference</em> is 2.459e+02", 
-                                "Title": "FSDSC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FSNS.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FSNS for <em>Test</em> is 1.735e+02 and for <em>Reference</em> is 1.735e+02", 
-                                "Title": "FSNS"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FSNSC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FSNSC for <em>Test</em> is 2.156e+02 and for <em>Reference</em> is 2.156e+02", 
-                                "Title": "FSNSC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FSNT.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FSNT for <em>Test</em> is 2.480e+02 and for <em>Reference</em> is 2.480e+02", 
-                                "Title": "FSNT"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FSNTC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FSNTC for <em>Test</em> is 2.886e+02 and for <em>Reference</em> is 2.886e+02", 
-                                "Title": "FSNTC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FSNTOA.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FSNTOA for <em>Test</em> is 2.483e+02 and for <em>Reference</em> is 2.483e+02", 
-                                "Title": "FSNTOA"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FSNTOAC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FSNTOAC for <em>Test</em> is 2.889e+02 and for <em>Reference</em> is 2.889e+02", 
-                                "Title": "FSNTOAC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/FSUTOA.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of FSUTOA for <em>Test</em> is 9.241e+01 and for <em>Reference</em> is 9.241e+01", 
-                                "Title": "FSUTOA"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/H2O2_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of H2O2_SRF for <em>Test</em> is 3.627e-10 and for <em>Reference</em> is 3.627e-10", 
-                                "Title": "H2O2_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/H2SO4_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of H2SO4_SRF for <em>Test</em> is 1.201e-13 and for <em>Reference</em> is 1.201e-13", 
-                                "Title": "H2SO4_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/ICEFRAC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of ICEFRAC for <em>Test</em> is 3.618e-02 and for <em>Reference</em> is 3.618e-02", 
-                                "Title": "ICEFRAC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/ICIMR.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of ICIMR for <em>Test</em> is 3.191e-06 and for <em>Reference</em> is 3.191e-06", 
-                                "Title": "ICIMR"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/ICWMR.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of ICWMR for <em>Test</em> is 1.768e-05 and for <em>Reference</em> is 1.768e-05", 
-                                "Title": "ICWMR"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/IWC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of IWC for <em>Test</em> is 5.847e-07 and for <em>Reference</em> is 5.847e-07", 
-                                "Title": "IWC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/LANDFRAC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of LANDFRAC for <em>Test</em> is 2.980e-01 and for <em>Reference</em> is 2.980e-01", 
-                                "Title": "LANDFRAC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/LHFLX.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of LHFLX for <em>Test</em> is 7.249e+01 and for <em>Reference</em> is 7.249e+01", 
-                                "Title": "LHFLX"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/LWCF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of LWCF for <em>Test</em> is 2.767e+01 and for <em>Reference</em> is 2.767e+01", 
-                                "Title": "LWCF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/NUMICE.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of NUMICE for <em>Test</em> is 3.603e+04 and for <em>Reference</em> is 3.603e+04", 
-                                "Title": "NUMICE"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/NUMLIQ.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of NUMLIQ for <em>Test</em> is 7.107e+05 and for <em>Reference</em> is 7.107e+05", 
-                                "Title": "NUMLIQ"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/OCNFRAC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of OCNFRAC for <em>Test</em> is 6.658e-01 and for <em>Reference</em> is 6.658e-01", 
-                                "Title": "OCNFRAC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/OMEGA.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of OMEGA for <em>Test</em> is -1.848e-04 and for <em>Reference</em> is -1.848e-04", 
-                                "Title": "OMEGA"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/OMEGAT.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of OMEGAT for <em>Test</em> is -8.842e-02 and for <em>Reference</em> is -8.842e-02", 
-                                "Title": "OMEGAT"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/PBLH.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of PBLH for <em>Test</em> is 7.109e+02 and for <em>Reference</em> is 7.109e+02", 
-                                "Title": "PBLH"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/PHIS.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of PHIS for <em>Test</em> is 2.240e+03 and for <em>Reference</em> is 2.240e+03", 
-                                "Title": "PHIS"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/PRECC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of PRECC for <em>Test</em> is 2.165e-08 and for <em>Reference</em> is 2.165e-08", 
-                                "Title": "PRECC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/PRECL.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of PRECL for <em>Test</em> is 7.782e-09 and for <em>Reference</em> is 7.782e-09", 
-                                "Title": "PRECL"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/PRECSC.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of PRECSC for <em>Test</em> is 5.394e-10 and for <em>Reference</em> is 5.394e-10", 
-                                "Title": "PRECSC"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/PRECSL.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of PRECSL for <em>Test</em> is 1.338e-09 and for <em>Reference</em> is 1.338e-09", 
-                                "Title": "PRECSL"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/PS.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of PS for <em>Test</em> is 9.859e+04 and for <em>Reference</em> is 9.859e+04", 
-                                "Title": "PS"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/PSL.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of PSL for <em>Test</em> is 1.013e+05 and for <em>Reference</em> is 1.013e+05", 
-                                "Title": "PSL"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/Q.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of Q for <em>Test</em> is 2.296e-03 and for <em>Reference</em> is 2.296e-03", 
-                                "Title": "Q"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/QFLX.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of QFLX for <em>Test</em> is 2.898e-05 and for <em>Reference</em> is 2.898e-05", 
-                                "Title": "QFLX"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/QREFHT.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of QREFHT for <em>Test</em> is 9.882e-03 and for <em>Reference</em> is 9.882e-03", 
-                                "Title": "QREFHT"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/QRL.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of QRL for <em>Test</em> is -3.227e-05 and for <em>Reference</em> is -3.227e-05", 
-                                "Title": "QRL"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/QRS.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of QRS for <em>Test</em> is 2.588e-05 and for <em>Reference</em> is 2.588e-05", 
-                                "Title": "QRS"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/RELHUM.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of RELHUM for <em>Test</em> is 4.177e+01 and for <em>Reference</em> is 4.177e+01", 
-                                "Title": "RELHUM"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/SHFLX.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of SHFLX for <em>Test</em> is 2.081e+01 and for <em>Reference</em> is 2.081e+01", 
-                                "Title": "SHFLX"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/SNOWHICE.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of SNOWHICE for <em>Test</em> is 9.084e+29 and for <em>Reference</em> is 9.084e+29", 
-                                "Title": "SNOWHICE"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/SNOWHLND.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of SNOWHLND for <em>Test</em> is 4.562e-02 and for <em>Reference</em> is 4.562e-02", 
-                                "Title": "SNOWHLND"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/SO2_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of SO2_SRF for <em>Test</em> is 5.329e-10 and for <em>Reference</em> is 5.329e-10", 
-                                "Title": "SO2_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/SOAG_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of SOAG_SRF for <em>Test</em> is 6.695e-10 and for <em>Reference</em> is 6.695e-10", 
-                                "Title": "SOAG_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/SOLIN.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of SOLIN for <em>Test</em> is 3.407e+02 and for <em>Reference</em> is 3.407e+02", 
-                                "Title": "SOLIN"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/SWCF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of SWCF for <em>Test</em> is -4.054e+01 and for <em>Reference</em> is -4.054e+01", 
-                                "Title": "SWCF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/T.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of T for <em>Test</em> is 2.469e+02 and for <em>Reference</em> is 2.469e+02", 
-                                "Title": "T"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TAUGWX.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TAUGWX for <em>Test</em> is 4.661e-04 and for <em>Reference</em> is 4.661e-04", 
-                                "Title": "TAUGWX"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TAUGWY.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TAUGWY for <em>Test</em> is 3.014e-04 and for <em>Reference</em> is 3.014e-04", 
-                                "Title": "TAUGWY"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TAUX.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TAUX for <em>Test</em> is -1.133e-03 and for <em>Reference</em> is -1.133e-03", 
-                                "Title": "TAUX"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TAUY.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TAUY for <em>Test</em> is -6.188e-03 and for <em>Reference</em> is -6.188e-03", 
-                                "Title": "TAUY"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TGCLDCWP.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TGCLDCWP for <em>Test</em> is 4.578e-02 and for <em>Reference</em> is 4.578e-02", 
-                                "Title": "TGCLDCWP"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TGCLDIWP.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TGCLDIWP for <em>Test</em> is 1.467e-02 and for <em>Reference</em> is 1.467e-02", 
-                                "Title": "TGCLDIWP"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TGCLDLWP.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TGCLDLWP for <em>Test</em> is 3.111e-02 and for <em>Reference</em> is 3.111e-02", 
-                                "Title": "TGCLDLWP"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TMQ.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TMQ for <em>Test</em> is 2.459e+01 and for <em>Reference</em> is 2.459e+01", 
-                                "Title": "TMQ"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TREFHT.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TREFHT for <em>Test</em> is 2.874e+02 and for <em>Reference</em> is 2.874e+02", 
-                                "Title": "TREFHT"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TS.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TS for <em>Test</em> is 2.883e+02 and for <em>Reference</em> is 2.883e+02", 
-                                "Title": "TS"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TSMN.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TSMN for <em>Test</em> is 2.837e+02 and for <em>Reference</em> is 2.837e+02", 
-                                "Title": "TSMN"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/TSMX.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of TSMX for <em>Test</em> is 2.935e+02 and for <em>Reference</em> is 2.935e+02", 
-                                "Title": "TSMX"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/U.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of U for <em>Test</em> is 1.096e+01 and for <em>Reference</em> is 1.096e+01", 
-                                "Title": "U"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/U10.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of U10 for <em>Test</em> is 4.656e+00 and for <em>Reference</em> is 4.656e+00", 
-                                "Title": "U10"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/UU.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of UU for <em>Test</em> is 5.341e+02 and for <em>Reference</em> is 5.341e+02", 
-                                "Title": "UU"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/V.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of V for <em>Test</em> is -8.482e-04 and for <em>Reference</em> is -8.482e-04", 
-                                "Title": "V"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/VQ.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of VQ for <em>Test</em> is 6.922e-04 and for <em>Reference</em> is 6.922e-04", 
-                                "Title": "VQ"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/VT.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of VT for <em>Test</em> is 1.755e+00 and for <em>Reference</em> is 1.755e+00", 
-                                "Title": "VT"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/VU.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of VU for <em>Test</em> is -7.327e-02 and for <em>Reference</em> is -7.327e-02", 
-                                "Title": "VU"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/VV.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of VV for <em>Test</em> is 4.627e+01 and for <em>Reference</em> is 4.627e+01", 
-                                "Title": "VV"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/WSUB.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of WSUB for <em>Test</em> is 2.280e-01 and for <em>Reference</em> is 2.280e-01", 
-                                "Title": "WSUB"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/Z3.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of Z3 for <em>Test</em> is 1.571e+04 and for <em>Reference</em> is 1.571e+04", 
-                                "Title": "Z3"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/bc_a1_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of bc_a1_SRF for <em>Test</em> is 5.099e-11 and for <em>Reference</em> is 5.099e-11", 
-                                "Title": "bc_a1_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/dst_a1_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of dst_a1_SRF for <em>Test</em> is 2.733e-10 and for <em>Reference</em> is 2.733e-10", 
-                                "Title": "dst_a1_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/dst_a3_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of dst_a3_SRF for <em>Test</em> is 2.015e-09 and for <em>Reference</em> is 2.015e-09", 
-                                "Title": "dst_a3_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/ncl_a1_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of ncl_a1_SRF for <em>Test</em> is 2.127e-10 and for <em>Reference</em> is 2.127e-10", 
-                                "Title": "ncl_a1_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/ncl_a2_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of ncl_a2_SRF for <em>Test</em> is 1.586e-13 and for <em>Reference</em> is 1.586e-13", 
-                                "Title": "ncl_a2_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/ncl_a3_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of ncl_a3_SRF for <em>Test</em> is 2.078e-09 and for <em>Reference</em> is 2.078e-09", 
-                                "Title": "ncl_a3_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/num_a1_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of num_a1_SRF for <em>Test</em> is 2.511e+08 and for <em>Reference</em> is 2.511e+08", 
-                                "Title": "num_a1_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/num_a2_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of num_a2_SRF for <em>Test</em> is 1.027e+09 and for <em>Reference</em> is 1.027e+09", 
-                                "Title": "num_a2_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/num_a3_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of num_a3_SRF for <em>Test</em> is 4.023e+05 and for <em>Reference</em> is 4.023e+05", 
-                                "Title": "num_a3_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/pom_a1_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of pom_a1_SRF for <em>Test</em> is 3.370e-10 and for <em>Reference</em> is 3.370e-10", 
-                                "Title": "pom_a1_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/so4_a1_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of so4_a1_SRF for <em>Test</em> is 1.582e-09 and for <em>Reference</em> is 1.582e-09", 
-                                "Title": "so4_a1_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/so4_a2_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of so4_a2_SRF for <em>Test</em> is 5.334e-11 and for <em>Reference</em> is 5.334e-11", 
-                                "Title": "so4_a2_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/so4_a3_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of so4_a3_SRF for <em>Test</em> is 4.701e-11 and for <em>Reference</em> is 4.701e-11", 
-                                "Title": "so4_a3_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/soa_a1_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of soa_a1_SRF for <em>Test</em> is 4.577e-10 and for <em>Reference</em> is 4.577e-10", 
-                                "Title": "soa_a1_SRF"
-                            }, 
-                            {
-                                "Plot File": "mvk_test_local/soa_a2_SRF.png", 
-                                "Type": "Image", 
-                                "Description": "Mean annual global average of soa_a2_SRF for <em>Test</em> is 2.457e-12 and for <em>Reference</em> is 2.457e-12", 
-                                "Title": "soa_a2_SRF"
-                            }
-                        ], 
-                        "Type": "Gallery", 
-                        "Title": "Analyzed variables"
+                        "Data": "<div class=\"bibliography\"><dl><dt>1</dt> <dd>Salil Mahajan, Katherine&nbsp;J Evans, Joseph&nbsp;H Kennedy, Min Xu, Mathew&nbsp;R Norman, and Marcia&nbsp;L Branstetter. Ongoing solution reproducibility of earth system models as they progress toward exascale computing. <em>The International Journal of High Performance Computing Applications</em>, 0(0):1094342019837341, 0. URL: <a href=\"https://doi.org/10.1177/1094342019837341\">https://doi.org/10.1177/1094342019837341</a>, <a href=\"https://arxiv.org/abs/https://doi.org/10.1177/1094342019837341\">arXiv:https://doi.org/10.1177/1094342019837341</a>, <a href=\"https://doi.org/10.1177/1094342019837341\">doi:10.1177/1094342019837341</a>.</dd> <dt>2</dt> <dd>Salil Mahajan, Abigail&nbsp;L. Gaddis, Katherine&nbsp;J. Evans, and Matthew&nbsp;R. Norman. Exploring an ensemble-based approach to atmospheric climate modeling and testing at scale. <em>Procedia Computer Science</em>, 108:735 &ndash; 744, 2017. International Conference on Computational Science, ICCS 2017, 12-14 June 2017, Zurich, Switzerland. URL: <a href=\"http://www.sciencedirect.com/science/article/pii/S1877050917308906\">http://www.sciencedirect.com/science/article/pii/S1877050917308906</a>, <a href=\"https://doi.org/https://doi.org/10.1016/j.procs.2017.05.259\">doi:https://doi.org/10.1016/j.procs.2017.05.259</a>.</dd> </dl></div>", 
+                        "Type": "HTML"
                     }
                 ], 
                 "Type": "Tab", 
-                "Title": "Gallery"
+                "Title": "References"
+            }
+        ], 
+        "Elements": [
+            {
+                "Headers": [
+                    "Test status", 
+                    "Variables analyzed", 
+                    "Rejecting", 
+                    "Critical value", 
+                    "Ensembles"
+                ], 
+                "Type": "Table", 
+                "Data": {
+                    "Test status": "pass", 
+                    "Variables analyzed": 118, 
+                    "Critical value": 13.0, 
+                    "Rejecting": 0, 
+                    "Ensembles": "statistically identical"
+                }, 
+                "Title": "Results"
             }
         ]
     }, 
-    "critical": 13.0, 
     "Type": "Page", 
-    "Description": "The Kolmogorov-Smirnov Test:\nThis tests the null hypothesis that the reference (n) and modified (m) model\nShort Independent Simulation Ensembles (SISE) represent the same climate\nstate, based on the equality of distribution of each variable's annual global\naverage in the standard monthly model output between the two simulations.\n\nThe (per variable) null hypothesis uses the non-parametric, two-sample (n and m)\nKolmogorov-Smirnov test as the univariate test of equality of distribution of\nglobal means. The test statistic (t) is the number of variables that reject the\n(per variable) null hypothesis of equality of distribution at a 95% confidence\nlevel. The (overall) null hypothesis is rejected if t > \u03b1, where \u03b1 is some\ncritical number of rejecting variables. The critical value, \u03b1, is obtained from\nan empirically derived approximate null distribution of t using resampling\ntechniques.\n", 
+    "Description": "The Kolmogorov-Smirnov Test:\nThis tests the null hypothesis that the reference (n) and modified (m) model\nShort Independent Simulation Ensembles (SISE) represent the same climate\nstate, based on the equality of distribution of each variable's annual global\naverage in the standard monthly model output between the two simulations.<br><br>The (per variable) null hypothesis uses the non-parametric, two-sample (n and m)\nKolmogorov-Smirnov test as the univariate test of equality of distribution of\nglobal means. The test statistic (t) is the number of variables that reject the\n(per variable) null hypothesis of equality of distribution at a 95% confidence\nlevel. The (overall) null hypothesis is rejected if t > \u03b1, where \u03b1 is some\ncritical number of rejecting variables. The critical value, \u03b1, is obtained from\nan empirically derived approximate null distribution of t using resampling\ntechniques.\n", 
     "Title": "mvk_test_local"
 }
