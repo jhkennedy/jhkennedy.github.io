@@ -4,13 +4,13 @@
             {
                 "TableTitle": "Kolmogorov-Smirnov test", 
                 "Data": {
-                    "mvk_test_local": {
+                    "mvk_zmconv_c0_ocn_0.045": {
                         "": {
-                            "Case": "mvk_test_local", 
-                            "Ensembles": "statistically identical", 
-                            "Rejecting": 0, 
+                            "Case": "mvk_zmconv_c0_ocn_0.045", 
+                            "Ensembles": "statistically different", 
+                            "Rejecting": 78, 
                             "Variables analyzed": 118, 
-                            "Test status": "pass", 
+                            "Test status": "fail", 
                             "Critical value": 13.0
                         }
                     }
@@ -26,11 +26,33 @@
                 "Title": "Validation"
             }, 
             {
+                "TableTitle": "Perturbation growth test", 
+                "Data": {
+                    "pge_zmconv_c0_ocn_0.045": {
+                        "": {
+                            "Case": "pge_zmconv_c0_ocn_0.045", 
+                            "Test status": "fail", 
+                            "T test (t, p)": "(-31.094, 0.000)", 
+                            "Ensembles": "statistically different", 
+                            "Null hypothesis": "reject"
+                        }
+                    }
+                }, 
+                "Type": "ValSummary", 
+                "Headers": [
+                    "Test status", 
+                    "Null hypothesis", 
+                    "T test (t, p)", 
+                    "Ensembles"
+                ], 
+                "Title": "Validation"
+            }, 
+            {
                 "TableTitle": "Time step convergence test", 
                 "Data": {
-                    "tsc_test_local": {
+                    "tsc_zmconv_c0_ocn_0.045": {
                         "": {
-                            "Case": "tsc_test_local", 
+                            "Case": "tsc_zmconv_c0_ocn_0.045", 
                             "Land": "Fail", 
                             "Ensembles": "statistically different", 
                             "Global": "Fail", 
@@ -45,28 +67,6 @@
                     "Global", 
                     "Land", 
                     "Ocean", 
-                    "Ensembles"
-                ], 
-                "Title": "Validation"
-            }, 
-            {
-                "TableTitle": "Perturbation growth test", 
-                "Data": {
-                    "pge_test_local": {
-                        "": {
-                            "Case": "pge_test_local", 
-                            "Test status": "pass", 
-                            "T test (t, p)": "(-0.000, 1.000)", 
-                            "Ensembles": "statistically identical", 
-                            "Null hypothesis": "accept"
-                        }
-                    }
-                }, 
-                "Type": "ValSummary", 
-                "Headers": [
-                    "Test status", 
-                    "Null hypothesis", 
-                    "T test (t, p)", 
                     "Ensembles"
                 ], 
                 "Title": "Validation"
