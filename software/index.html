@@ -167,6 +167,11 @@ coupling capability (such as atmosphere physics-dynamics coupling). To learn mor
     </main>
 
     <footer>
-        &copy; Copyright 2018, Joseph H. Kennedy.
+        &copy; <span id="copyright-year"></span>
+        <script type="text/javascript">
+            current_year = new Date().getFullYear();
+            document.getElementById("copyright-year").innerHTML=current_year;
+        </script>
+        Joseph H Kennedy
     </footer>
 </body>
