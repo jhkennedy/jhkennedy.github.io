@@ -1,107 +1,132 @@
-<!doctype html>
+<!DOCTYPE html>
+
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="https://jhkennedy.org/sites/default/files/signature_favico.ico" />
-    <link rel="stylesheet" href="static/css/reset.css">
-    <link rel="stylesheet" href="static/css/flexslider.css">
-    <link rel="stylesheet" href="static/css/style.css">
-    <link rel="stylesheet" href="static/css/colors.css">
-    <link rel="stylesheet" href="static/css/custom.css">
-    <script  src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
-    </script>
-    <script src="static/js/jquery.flexslider-min.js"></script>
-    <script src="static/js/custom.js"></script>
-    <script type="text/javascript" charset="utf-8">
-      $(window).on('load', function() {
-        $('.flexslider').flexslider();
-      });
-    </script>
-    <title>Welcome! | jhkennedy.org</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- Define title -->
+    <title>Dr. Joseph H. Kennedy</title>
+
+    <!-- Include favicon. Use, e.g., https://favicon.io/ -->
+    <link rel="icon" type="image/x-icon" href="static/images/signature_favico.ico" sizes="32x32"/>
+
+    <!-- Include style sheets -->
+    <link rel="stylesheet" href="static/css/main.css"/>
+
+    <!-- Fonts from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet"/>
+
+    <!-- Load FontAwesome (for icons) -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous"
+    />
+
+    <!-- Load Academicons (for more icons) -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css"
+            integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg=="
+            crossorigin="anonymous"
+    />
+
 </head>
-<body class="container">
-    <header>
-        <div class="name">
-            <h1>Joseph H Kennedy</h1>
-        </div>
-        <div class="socialbar">
-            <ul class="social">
-                <li><a href="https://github.com/jhkennedy" target="_blank">
-                    <img src="static/images/github.png">
-                </a></li>
-                <li><a href="http://scholar.google.com/citations?user=chPMeM4AAAAJ" target="_blank">
-                    <img src="static/images/google_scholar.png">
-                </a></li>
-                <li><a href="https://www.linkedin.com/in/jhkennedy" target="_blank">
-                    <img src="static/images/in.png">
-                </a></li>
-                <li><a href="https://twitter.com/aJollyAdventure" target="_blank">
-                    <img src="static/images/twitter.png">
-                </a></li>
-            </ul>
-        </div>
-        <nav>
-            <ul class="navbar-nav">
-                <li class="active"><a href="./">Home</a></li>
-                
-                    <li><a href="research/">Research</a>
-                    </li>
-                
-                    <li><a href="software/">Software</a>
-                    </li>
-                
-                    <li><a href="cv/">Résumé/C.V.</a>
-                    </li>
-                
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <div class="home-page">
-            
-    <div class="flexslider">
-        <ul class="slides">
-            
-                    <li>
-                    <a href="cv/">
-                            <img src="static/images/slide_joe_vista.jpg"/>
-                        </a>
-                        <div onclick="location.href='cv/';" class="flex-caption">
-                            <h3 class="flex-caption-text">My résumé or curriculum vitae</h3>
-                        </div>
-                    </li>
-                
-                    <li>
-                    <a href="research/">
-                            <img src="static/images/slide_joe_kayak.jpg"/>
-                        </a>
-                        <div onclick="location.href='research/';" class="flex-caption">
-                            <h3 class="flex-caption-text">My research interests</h3>
-                        </div>
-                    </li>
-                
-        </ul>
-    </div>
-    <div class="home">
-        <h2 class="page-title">Welcome!</h2>
-        <p>I am a Research Software Engineer for the <a href="https://asf.alaska.edu/">Alaska Satellite Facility</a>
-at the <a href="https://www.gi.alaska.edu/">University of Alaska Fairbanks' Geophysical Institute</a>.
-I develop (primarily) python-based, open-source scientific software.</p>
-<p>See my <a href="research/">research</a> and <a href="software/">software</a> pages for more information.</p>
 
-    </div>
+<!-- Import PDF.js Express as a script tag from the lib folder using a relative path -->
+<script src='./static/js/PDFJSExpress/lib/webviewer.min.js'></script>
 
-        </div>
-    </main>
+<body>
+<section id="content">
+    <!-- Avatar image -->
+    <img src="static/images/slide_joe_vista.jpg" alt="Carl Barks" class="avatar"/>
 
-    <footer>
-        &copy; <span id="copyright-year"></span>
-        <script type="text/javascript">
-            current_year = new Date().getFullYear();
-            document.getElementById("copyright-year").innerHTML=current_year;
-        </script>
-        Joseph H Kennedy
-    </footer>
+    <!-- Text -->
+    <h1>Hi, I'm Dr. Joseph H. Kennedy!</h1>
+    <p>
+        I am a Staff Scientist at the <a href="https://asf.alaska.edu/" target="_blank">Alaska Satellite Facility</a> .
+    </p>
+    <p id="about">
+        I am a Scientist and Software Engineer with extensive multi-institutional project leadership and management
+        experience. I specialize in bridging the gap between scientists and software engineers, building ground-up
+        Cloud and HPC data processing/analysis platforms for users, managing global-scale processing campaigns, working
+        with PB-scale Big Data, and generating analysis-ready EarthObserving/Modeling data. I have expertise in
+        open-source development, packaging, and distributionof scientific software, especially within the scientific
+        Python ecosystem.
+    </p>
+    <p>
+        Please feel free to get in touch!
+    </p>
+
+    <!-- Icons -->
+    <ul class="icons">
+        <!-- <li>
+            <a href="cv/index.html" title="Curriculum Vitae"><i class="ai ai-cv"></i></a>
+        </li> -->
+        <li>
+            <a href="mailto:me@jhkennedy.org" title="E-Mail"><i class="fas fa-envelope"></i></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/jhkennedy" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+            <a href="https://github.com/jhkennedy" title="GitHub"><i class="fab fa-github"></i></a>
+        </li>
+        <li>
+            <a href="https://orcid.org/0000-0002-9348-693X" title="ORCID"><i class="ai ai-orcid"></i></a>
+        </li>
+        <li>
+            <a href="https://scholar.google.com/citations?user=chPMeM4AAAAJ" title="Google Scholar"><i
+                    class="ai ai-google-scholar"></i></a>
+        </li>
+    </ul>
+
+    <select id="select" style={{"width":"100%"}}>
+        <option value="/static/Kennedy_resume.pdf">Kennedy_resume.pdf</option>
+        <option value="/static/Kennedy_cv.pdf">Kennedy_cv.pdf</option>
+    </select>
+
+    <div id='viewer' style={{"width":"1024px","height":"600px","margin":"0 auto"}}></div>
+</section>
+
+<script>
+    WebViewer({
+        path: './static/js/PDFJSExpress/lib', // path to the PDF.js Express'lib' folder on your server
+        licenseKey: '5zXV58Q00oe7kChLNWu8',
+        initialDoc: '/static/Kennedy_resume.pdf',
+    }, document.getElementById('viewer'))
+        .then(instance => {
+            const docViewer = instance.Core.documentViewer;
+            const annotManager = instance.Core.annotationManager;
+            // call methods from instance, documentViewer and annotationManager as needed
+            instance.setFitMode(instance.FitMode.FitWidth)
+
+            annotManager.enableReadOnlyMode()
+            instance.UI.disableElements(['toolbarGroup-View']);
+            instance.UI.disableElements(['toggleNotesButton']);
+
+            document.getElementById('select').onchange = (e) => {
+                instance.UI.loadDocument(e.target.value);
+            };
+
+            // TODO:
+            //    * download button?
+
+            // you can also access major namespaces from the instance as follows:
+            // const Tools = instance.Core.Tools;
+            // const Annotations = instance.Core.Annotations;
+
+            docViewer.addEventListener('documentLoaded', () => {
+                // call methods relating to the loaded document
+            });
+        });
+</script>
 </body>
+
+</html>
