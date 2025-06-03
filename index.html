@@ -39,9 +39,6 @@
 
 </head>
 
-<!-- Import PDF.js Express as a script tag from the lib folder using a relative path -->
-<script src='./static/js/PDFJSExpress/lib/webviewer.min.js'></script>
-
 <body>
 <section id="content">
     <!-- Avatar image -->
@@ -50,16 +47,19 @@
     <!-- Text -->
     <h1>Hi, I'm Dr. Joseph H. Kennedy!</h1>
     <p>
-        I am a Staff Scientist at the <a href="https://asf.alaska.edu/" target="_blank">Alaska Satellite Facility</a> .
+        I am a Staff Scientist at the <a href="https://asf.alaska.edu/" target="_blank">Alaska Satellite Facility</a>.
     </p>
     <p id="about">
         I am a Scientist and Software Engineer with extensive multi-institutional project leadership and management
         experience. I specialize in bridging the gap between scientists and software engineers, building ground-up
         Cloud and HPC data processing/analysis platforms for users, managing global-scale processing campaigns, working
         with PB-scale Big Data, and generating analysis-ready EarthObserving/Modeling data. I have expertise in
-        open-source development, packaging, and distributionof scientific software, especially within the scientific
+        open-source development, packaging, and distribution of scientific software, especially within the scientific
         Python ecosystem.
     </p>
+    <div id="cv">
+        <p>My résumé or curriculum vitae → </p><a href="cv/index.html" title="Curriculum Vitae"><i class="ai ai-cv" id="cv-icons"></i></a>
+    </div>
     <p>
         Please feel free to get in touch!
     </p>
@@ -86,47 +86,6 @@
                     class="ai ai-google-scholar"></i></a>
         </li>
     </ul>
-
-    <select id="select" style={{"width":"100%"}}>
-        <option value="/static/Kennedy_resume.pdf">Kennedy_resume.pdf</option>
-        <option value="/static/Kennedy_cv.pdf">Kennedy_cv.pdf</option>
-    </select>
-
-    <div id='viewer' style={{"width":"1024px","height":"600px","margin":"0 auto"}}></div>
-</section>
-
-<script>
-    WebViewer({
-        path: './static/js/PDFJSExpress/lib', // path to the PDF.js Express'lib' folder on your server
-        licenseKey: '5zXV58Q00oe7kChLNWu8',
-        initialDoc: '/static/Kennedy_resume.pdf',
-    }, document.getElementById('viewer'))
-        .then(instance => {
-            const docViewer = instance.Core.documentViewer;
-            const annotManager = instance.Core.annotationManager;
-            // call methods from instance, documentViewer and annotationManager as needed
-            instance.setFitMode(instance.FitMode.FitWidth)
-
-            annotManager.enableReadOnlyMode()
-            instance.UI.disableElements(['toolbarGroup-View']);
-            instance.UI.disableElements(['toggleNotesButton']);
-
-            document.getElementById('select').onchange = (e) => {
-                instance.UI.loadDocument(e.target.value);
-            };
-
-            // TODO:
-            //    * download button?
-
-            // you can also access major namespaces from the instance as follows:
-            // const Tools = instance.Core.Tools;
-            // const Annotations = instance.Core.Annotations;
-
-            docViewer.addEventListener('documentLoaded', () => {
-                // call methods relating to the loaded document
-            });
-        });
-</script>
-</body>
-
+    </section>
+    </body>
 </html>
